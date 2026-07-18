@@ -1,0 +1,7 @@
+{
+  "skill": "site-shipper",
+  "host": "github-pages",
+  "repo": "rafeabd/development-ledger",
+  "url": "https://rafeabd.github.io/development-ledger/",
+  "build": "vite"
+}
