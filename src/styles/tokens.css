@@ -1,0 +1,35 @@
+:root {
+  /* palette — warm editorial paper & ink */
+  --color-paper: oklch(96.5% 0.012 85);
+  --color-paper-raised: oklch(98.5% 0.008 85);
+  --color-ink: oklch(24% 0.02 60);
+  --color-ink-soft: oklch(42% 0.02 60);
+  --color-ink-faint: oklch(58% 0.015 60);
+  --color-rule: oklch(80% 0.02 75);
+  --color-accent: oklch(55% 0.13 55); /* burnt ochre */
+  --color-accent-soft: oklch(93% 0.03 65);
+  --color-signed: oklch(48% 0.1 150);
+  --color-signed-soft: oklch(93% 0.035 150);
+  --color-dead: oklch(50% 0.12 25);
+  --color-dead-soft: oklch(94% 0.03 25);
+  --color-moving: oklch(48% 0.1 250);
+  --color-moving-soft: oklch(93% 0.03 250);
+
+  /* type */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', -apple-system, system-ui, sans-serif;
+  --text-base: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  --text-sm: 0.8125rem;
+  --text-xs: 0.6875rem;
+  --text-section: clamp(1.5rem, 1.2rem + 1.5vw, 2.25rem);
+  --text-masthead: clamp(2.25rem, 1rem + 6vw, 5.5rem);
+
+  /* rhythm */
+  --space-section: clamp(3.5rem, 2.5rem + 4vw, 7rem);
+  --measure: 62ch;
+
+  /* motion */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}

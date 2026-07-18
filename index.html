@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Development Ledger — Real Estate Legislation Intelligence</title>
+    <meta
+      name="description"
+      content="Daily-updated tracker of federal, New York, Pennsylvania, and Florida legislation on real estate development and lending, with summaries and links to every bill."
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-meta">
+        <span id="today" class="masthead-date"></span>
+        <span class="masthead-edition">Legislative Intelligence</span>
+      </div>
+      <h1 class="masthead-title">The Development Ledger</h1>
+      <p class="masthead-tagline">
+        Tracking real-estate development &amp; lending legislation — Congress, New York,
+        Pennsylvania, Florida, and notable movement elsewhere.
+      </p>
+      <nav class="section-nav" aria-label="Jurisdictions"></nav>
+    </header>
+
+    <main>
+      <section id="briefing" class="briefing" aria-labelledby="briefing-heading" hidden>
+        <h2 id="briefing-heading" class="briefing-heading">Today’s Briefing</h2>
+        <div class="briefing-body"></div>
+      </section>
+
+      <section class="controls" aria-label="Filters">
+        <input
+          id="search"
+          class="control-search"
+          type="search"
+          placeholder="Search bills, topics, keywords…"
+          aria-label="Search bills"
+        />
+        <select id="status-filter" class="control-select" aria-label="Filter by status">
+          <option value="">All statuses</option>
+        </select>
+        <span id="result-count" class="control-count" role="status"></span>
+      </section>
+
+      <div id="sections"></div>
+    </main>
+
+    <footer class="colophon">
+      <p>
+        Bill data from the <a href="https://legiscan.com" rel="noopener">LegiScan API</a>, refreshed
+        daily. Plain-English summaries are AI-assisted and not legal advice — always read the linked
+        bill text. <span id="generated-at"></span>
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
