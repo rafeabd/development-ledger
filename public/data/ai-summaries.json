@@ -174,5 +174,37 @@
   "PA-SB1277": {
     "summary": "A comprehensive LERTA overhaul: revises deteriorated-area definitions, exemption schedules, and procedures; adds ordinance limits and a public registry of abatements; and allows longer abatements for converting vacant buildings to housing.",
     "updated": "2026-07-18"
+  },
+  "NY-S03397": {
+    "summary": "The Faith-Based Affordable Housing Act: lets religious organizations build affordable housing on residential land they own, overriding certain local zoning restrictions if the project meets state requirements. A meaningful land-supply unlock — congregations own a lot of underused parcels.",
+    "updated": "2026-07-18"
+  },
+  "NY-S09259": {
+    "summary": "Creates a state office-to-residential conversion tax credit (run by Empire State Development) plus a historic-rehab conversion credit — aimed especially at converting office buildings outside New York City. The state-level companion to the federal conversion-credit push.",
+    "updated": "2026-07-18"
+  },
+  "NY-S10345": {
+    "summary": "A technical but money-relevant 485-x amendment: affordability option D rents would adjust annually with CPI. Changes the long-term rent trajectory developers should underwrite under the 421-a successor program.",
+    "updated": "2026-07-18"
+  },
+  "NY-S10500": {
+    "summary": "Tightens 485-x for condos: no tax exemption for a homeownership unit unless the owner agrees in writing to keep it as their primary residence for five years. Targets investor purchases of tax-exempt units.",
+    "updated": "2026-07-18"
+  },
+  "NY-S08612": {
+    "summary": "Passed the Senate; now in the Assembly. Makes technical corrections to the good cause eviction law from the FY2025 budget — the statute governing rent increases and lease renewals in covered buildings, including how newer development is treated.",
+    "updated": "2026-07-18"
+  },
+  "NY-S00072": {
+    "summary": "The Housing Access Voucher Program: a statewide rental subsidy for people who are homeless or about to lose housing. For landlords and affordable operators, a potential new stable payment stream; a funded pilot already exists in the budget.",
+    "updated": "2026-07-18"
+  },
+  "NY-S00733": {
+    "summary": "Creates a state revolving loan fund offering zero- or low-interest construction financing for mixed-income housing — explicitly meant to replace expensive mezzanine debt in the capital stack.",
+    "updated": "2026-07-18"
+  },
+  "NY-A09554": {
+    "summary": "The Deed Protection Act, passed the Assembly in May. Blocks foreclosure on mortgages the lender knows (or should know) rest on a deed procured by fraud or forgery — New York's legislative answer to deed theft. Title and lending diligence implications.",
+    "updated": "2026-07-18"
   }
 }
