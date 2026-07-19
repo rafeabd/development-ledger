@@ -27,6 +27,70 @@
     "summary": "Would use antitrust law (the Sherman Act) to ban certain large entities — aimed at institutional investors and hedge funds — from purchasing single-family homes. If it moves, it would reshape the build-to-rent and SFR acquisition market.",
     "updated": "2026-07-18"
   },
+  "US-HB3495": {
+    "summary": "Would codify real estate agents as independent contractors under the Fair Labor Standards Act, preventing federal reclassification as employees. The bill has been placed on the House Union Calendar (past committee), making it one of the more advanced labor-law bills affecting the industry. Protects the independent-contractor model that most brokerage businesses depend on.",
+    "updated": "2026-07-19"
+  },
+  "US-HB6342": {
+    "summary": "The Clean Up DEBRIS Act extends FEMA disaster relief under the Stafford Act to condominiums, homeowner associations, and housing cooperatives damaged in a major disaster — categories currently excluded. For developers and lenders with HOA-governed portfolios in hurricane or tornado corridors, this closes a significant insurance gap. The Senate companion is S.352.",
+    "updated": "2026-07-19"
+  },
+  "US-HB6511": {
+    "summary": "Exempts small seller-financers from federal mortgage originator licensing requirements under Dodd-Frank — targeting individuals who carry back financing on their own properties. Lowers the regulatory barrier for owner-financed residential deals, which are common in rural and lower-price markets.",
+    "updated": "2026-07-19"
+  },
+  "US-SB2573": {
+    "summary": "Directs the GAO to study foreign purchases of U.S. residential real estate, focusing on the volume, geography, and methods used by foreign individuals, entities, and governments. Primarily a data-gathering bill, but the findings are likely to inform more restrictive legislation targeting specific countries or buyer types.",
+    "updated": "2026-07-19"
+  },
+  "US-HB4706": {
+    "summary": "House companion to S.2258: would ban Chinese-affiliated entities from purchasing U.S. agricultural land or residential real property. Referred to Agriculture and Foreign Affairs; the House bill has a broader scope on residential property than many foreign-buyer bills. Deals involving Chinese-affiliated capital or operating partners should monitor this bill's progress.",
+    "updated": "2026-07-19"
+  },
+  "US-SB2258": {
+    "summary": "Senate version of H.R. 4706: prohibits Chinese-connected entities from acquiring agricultural land or residential real property in the U.S. Referred to Senate Agriculture; paired with multiple other foreign-buyer restriction bills in the 119th Congress. If enacted, would require due-diligence screens on buyer nationality and beneficial ownership in any land or residential transaction.",
+    "updated": "2026-07-19"
+  },
+  "US-HB3981": {
+    "summary": "Grants a federal charter to the Veterans Association of Real Estate Professionals, recognizing it as a congressionally chartered nonprofit. Primarily symbolic; no direct market or regulatory effect, but signals congressional support for veteran real estate professionals.",
+    "updated": "2026-07-19"
+  },
+  "US-HB3588": {
+    "summary": "The Real Estate Reciprocity Act: requires IRS reporting of all real estate purchases by non-citizens and imposes a special tax on purchases by nationals of countries that restrict U.S. citizen land ownership. Would add a new compliance layer to any closing where the buyer is a foreign national, and create a new tax cost for buyers from reciprocity-target countries.",
+    "updated": "2026-07-19"
+  },
+  "US-HB2840": {
+    "summary": "House companion to S.1299: directs HUD to publish voluntary best-practice frameworks for state and local zoning reform — covering minimum lot sizes, density, parking requirements, and approval timelines. No mandates, but a federal imprimatur for localities seeking political cover to upzone.",
+    "updated": "2026-07-19"
+  },
+  "US-SB1012": {
+    "summary": "The SOIL Act: expands USDA and CFIUS oversight of foreign purchases of agricultural land, including new disclosure requirements for purchases of 10+ acres and enforcement mechanisms for violations. Another national-security land bill in a crowded field; relevant to any farmland transaction involving offshore or foreign-owned capital structures.",
+    "updated": "2026-07-19"
+  },
+  "US-HB892": {
+    "summary": "Requires the heads of federal housing agencies (FHA, VA, USDA, etc.) to publicly disclose detailed data on loans insured or guaranteed under their programs, including loan performance, denial rates, and geographic distribution. Primarily a transparency measure; the disclosed data would be useful for lenders benchmarking government-backed programs.",
+    "updated": "2026-07-19"
+  },
+  "US-SB838": {
+    "summary": "The ACRE Act (Senate): makes interest earned on loans secured by rural or agricultural real property tax-exempt for the lender. Effectively subsidizes rural lending by improving lender economics on ag real estate loans — could tighten spreads and improve access to credit in underserved rural markets.",
+    "updated": "2026-07-19"
+  },
+  "US-HB1822": {
+    "summary": "House companion to S.838 (ACRE Act): same tax exclusion for interest on rural/agricultural real estate loans. Parallel House vehicle for the rural lending subsidy — whichever chamber acts first, the other would need to follow for enactment.",
+    "updated": "2026-07-19"
+  },
+  "US-HB1094": {
+    "summary": "Bars HOAs, CCRs, and other private land use restrictions from prohibiting reasonably designed amateur radio antennas. A narrow but recurring issue in HOA-governed communities; would preempt deed restrictions that currently prevent amateur radio installations.",
+    "updated": "2026-07-19"
+  },
+  "US-SB352": {
+    "summary": "Senate companion to H.R. 6342 (DEBRIS Act): extends Stafford Act disaster relief to condominiums, cooperatives, and homeowner associations. Read twice and referred to Homeland Security; with both chambers carrying versions, this has a reasonable shot at enactment as a standalone or as part of a broader disaster-relief package.",
+    "updated": "2026-07-19"
+  },
+  "US-SB176": {
+    "summary": "The most aggressive Chinese land-ownership restriction in the ledger: directs the President to prohibit any Chinese citizen or entity from purchasing any U.S. real estate — public or private, residential or commercial — by executive action. Referred to Foreign Relations; reflects growing congressional pressure on Chinese real estate investment.",
+    "updated": "2026-07-19"
+  },
   "NY-A10679": {
     "summary": "A crackdown on pocket listings. Listed homes would have to be publicly advertised on platforms the general public can access, promptly. Off-market marketing would only be allowed if the seller signs a standardized state disclosure explaining what they give up by keeping the listing private.",
     "updated": "2026-07-18"
@@ -55,6 +119,74 @@
     "summary": "A broker-relationship overhaul: bans single-agent dual agency, requires written representation agreements, makes broker fees explicitly negotiable, and prohibits mandatory broker fees in residential deals. Would significantly change how New York agents get paid.",
     "updated": "2026-07-18"
   },
+  "NY-S06958": {
+    "summary": "The New York Fair Housing Act: would require municipalities to take affirmative steps to create and maintain affordable housing, with state oversight through the Division of Housing and Community Renewal. A sweeping mandate that could override exclusionary local zoning — with significant implications for developers navigating hostile approval processes.",
+    "updated": "2026-07-19"
+  },
+  "NY-A05169": {
+    "summary": "Extends the post-revocation period for disciplined real estate brokers and salespersons from one year to three years before they can reapply, and adds revocation and suspension history to the state's public data website. Creates a publicly searchable discipline record that buyers and employers can consult.",
+    "updated": "2026-07-19"
+  },
+  "NY-A07682": {
+    "summary": "Creates a licensing regime for apartment information vendors — companies that charge fees to furnish rental availability information. Targets the fee-based rental-listing industry, which has long operated with minimal oversight in New York.",
+    "updated": "2026-07-19"
+  },
+  "NY-A06922": {
+    "summary": "Requires online housing platforms operating in New York to display fair housing rights notices, and requires that Section 8 voucher holders receive written notice of their source-of-income protections at the time of application. Adds new disclosure infrastructure obligations for listing portals and compliance requirements for landlords with subsidized tenants.",
+    "updated": "2026-07-19"
+  },
+  "NY-A08910": {
+    "summary": "Assembly companion to S.09564: requires buyer-broker agreements to clearly and conspicuously disclose the compensation the broker will receive. Part of New York's post-NAR-settlement regulatory response to bring commission transparency to the buyer's side of a deal.",
+    "updated": "2026-07-19"
+  },
+  "NY-A02274": {
+    "summary": "Allocates fines collected from licensed real estate appraisers to the state's anti-discrimination in housing fund, and authorizes fines up to $2,000 on appraisers for specified violations. Strengthens financial accountability for appraisal bias by directing penalties toward anti-discrimination enforcement.",
+    "updated": "2026-07-19"
+  },
+  "NY-S03564": {
+    "summary": "Senate companion to A.02274: same appraiser fine-allocation reform directing penalties to the anti-discrimination in housing fund and increasing the fine ceiling for appraiser misconduct.",
+    "updated": "2026-07-19"
+  },
+  "NY-A06061": {
+    "summary": "Would ban corporations, developers, and residential contractors from purchasing single-family homes to convert them into single rental units. Targets the institutional SFR (single-family rental) acquisition model at the most direct level — any entity buy-and-rent strategy for detached homes would be unlawful.",
+    "updated": "2026-07-19"
+  },
+  "NY-A04830": {
+    "summary": "Creates a paired-testing program using matched testers to detect discriminatory practices by brokers and agents, funded by a new compliance fee on the industry. Expands fair housing enforcement with undercover investigation capacity backed by industry-funded revenue.",
+    "updated": "2026-07-19"
+  },
+  "NY-S05524": {
+    "summary": "Senate companion to A.04830: the same paired-testing and compliance-fee framework for detecting discriminatory practices by licensed real estate professionals.",
+    "updated": "2026-07-19"
+  },
+  "NY-S04058": {
+    "summary": "Would allow local zoning boards of appeals to grant variances approving affordable housing developments that don't comply with existing zoning, with a state-level appeal to a new DHCR board of appeals for denied projects. Gives affordable developers a bypass route around hostile local zoning — a significant tool for low-income housing tax credit projects stuck in review.",
+    "updated": "2026-07-19"
+  },
+  "NY-A01492": {
+    "summary": "Assembly companion to S.04058: the same affordable housing zoning variance pathway, with a state-level override mechanism and LIHTC-integration study. Both bills have been in committee since January 2026.",
+    "updated": "2026-07-19"
+  },
+  "NY-A05164": {
+    "summary": "Codifies the supervisory duty of real estate brokers over their salespeople and associate brokers, requiring regular, consistent personal guidance and oversight, including fair housing training. Puts explicit statutory liability on brokers for inadequate supervision — relevant to large brokerage operations with many licensees.",
+    "updated": "2026-07-19"
+  },
+  "NY-S06361": {
+    "summary": "Signed into Law (December 2025). Prohibits unfair residential real estate service agreements — specifically targeting long-tail listing contracts that purport to run with the land and bind future owners for periods exceeding two years. New York landlords and sellers can no longer be locked into multi-year predatory commission agreements attached to the deed.",
+    "updated": "2026-07-19"
+  },
+  "NY-A06869": {
+    "summary": "Signed into Law (October 2025, Chapter 435). Prohibits discriminatory practices by real estate appraisers and strengthens fair housing compliance obligations in the appraisal process. Appraisers operating in New York are now subject to explicit anti-bias requirements with enforcement teeth.",
+    "updated": "2026-07-19"
+  },
+  "NY-A05886": {
+    "summary": "The original Assembly vehicle for banning predatory long-tail listing agreements; substituted by S.6361B, the version that was signed into law in December 2025. The substance — prohibiting service agreements not to be performed within two years — is now enacted through the Senate bill.",
+    "updated": "2026-07-19"
+  },
+  "NY-S07320": {
+    "summary": "The original Senate vehicle for prohibiting discriminatory appraisal practices; substituted by A.6869, the bill signed into law in October 2025. The enacted version carries the same fair housing prohibition on appraisers.",
+    "updated": "2026-07-19"
+  },
   "PA-HB96": {
     "summary": "Now law. Amends Pennsylvania's Real Estate Tax Sale Law so a property owner can designate someone (a relative, attorney, etc.) to also receive delinquent-tax notices before a tax sale, and updates rules for unseated lands. Aimed at preventing owners from losing property to tax sales they never knew about.",
     "updated": "2026-07-18"
@@ -79,6 +211,106 @@
     "summary": "Updates the Pennsylvania Human Relations Act's definitions and its list of unlawful discriminatory and prohibited real estate practices — a fair-housing enforcement bill that affects brokers, landlords, and lenders operating in the state.",
     "updated": "2026-07-18"
   },
+  "PA-HB1446": {
+    "summary": "Would have expanded LERTA-style tax exemptions for improvements to underutilized property and created a state Economic Development and Mixed-Use Redevelopment Advisory Committee; laid on the table in December 2025. The underlying concept — locally-authorized tax incentives for underused-site redevelopment — may return in modified form.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB2066": {
+    "summary": "Would repeal Pennsylvania's inheritance tax and make related procedural adjustments to the Tax Reform Code. If enacted, it would eliminate a tax cost on estate transfers of real property — benefiting heirs selling inherited homes and investors purchasing through estate sales.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB1951": {
+    "summary": "An earlier version of the state prison-land disposition bill (now superseded by HB2180): would impose requirements when state correctional institution lands are sold and assign duties to the Departments of Corrections and Attorney General. Referred to State Government; the later HB2180 is the active vehicle.",
+    "updated": "2026-07-19"
+  },
+  "PA-SB567": {
+    "summary": "Would mandate regular cyclical property reassessments and reconstitute the State Tax Equalization Board to ensure assessment uniformity across Pennsylvania counties. The absence of mandatory reassessment in Pennsylvania produces wildly uneven assessed values; this bill is a long-sought reform with major implications for taxable value, appeals, and lending underwriting.",
+    "updated": "2026-07-19"
+  },
+  "PA-SB815": {
+    "summary": "Amends the realty transfer tax to modify excluded transactions and adjusts local real estate transfer tax imposition under the Tax Reform Code. Could expand or clarify which transfers are exempt — directly affecting deal structuring on residential and commercial transactions.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB1119": {
+    "summary": "Expands the real estate tax exemption for 100% disabled veterans under Title 51 (Military Affairs). Limited direct market impact but relevant for properties owned by disabled veterans navigating tax-sale or tax-lien resolution.",
+    "updated": "2026-07-19"
+  },
+  "PA-SB831": {
+    "summary": "Senate companion to HB1119: same expansion of the disabled veterans' real estate tax exemption.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB818": {
+    "summary": "Passed the House 183-20; now in Senate committee. Establishes first-time homebuyer savings accounts with tax benefits for down payments and closing costs, administered by the Treasury Department.",
+    "updated": "2026-07-18"
+  },
+  "PA-HB1459": {
+    "summary": "Would require municipalities to permit multi-family housing in areas zoned for office use — opening underused office districts to residential development statewide. A significant by-right conversion play if it moves.",
+    "updated": "2026-07-18"
+  },
+  "PA-HB986": {
+    "summary": "Passed the House; now in Senate Urban Affairs & Housing. Prohibits unfair real estate service agreements — Pennsylvania's version of the anti-predatory-listing-contract law already enacted in New York. Would ban long-tail agreements running with residential land and impose penalties on violators.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB1394": {
+    "summary": "An earlier inheritance tax repeal bill (superseded by HB2066): same policy of eliminating Pennsylvania's inheritance tax. Referred to Finance in May 2025 and not further advanced; HB2066 is the current vehicle.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB1230": {
+    "summary": "Amends the Real Estate Appraisers Certification Act to update the composition and duties of the State Board of Certified Real Estate Appraisers. Administrative governance bill with no direct market impact but relevant to appraisers seeking certification in Pennsylvania.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB1174": {
+    "summary": "An HOA/condo transparency bill: revises how condominium, cooperative, and planned-community associations must conduct and notice their meetings under Title 68.",
+    "updated": "2026-07-18"
+  },
+  "PA-HB882": {
+    "summary": "Bans real estate professionals and construction companies from harassing homeowners — covering aggressive direct-mail campaigns, repeated unsolicited contacts, and high-pressure solicitations — with civil and criminal penalties. Relevant to investors and marketing teams with high-volume homeowner outreach programs.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB628": {
+    "summary": "Creates homeowner cease-and-desist zones and a statewide do-not-solicit list: property owners in defined geographic areas can register to block real estate brokers, salespersons, and regular buyers from soliciting them. Adds a compliance screening obligation to any door-knocking or direct-mail acquisition strategy in Pennsylvania.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB2434": {
+    "summary": "Amends the Municipalities Planning Code to create an expedited approval process for high-density housing projects, cutting municipal delay on multi-unit residential approvals.",
+    "updated": "2026-07-18"
+  },
+  "PA-SB264": {
+    "summary": "Expands LERTA — Pennsylvania's local tax-abatement program for improvements to deteriorated property — by modifying the exemption schedule. More abatement room for redevelopment projects.",
+    "updated": "2026-07-18"
+  },
+  "PA-SB238": {
+    "summary": "Repeals a specific realty transfer tax provision in the Tax Reform Code and makes editorial changes. Technical cleanup of the transfer-tax statute; if the repealed provision created a tax obligation, its removal could reduce closing costs on affected transaction types.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB570": {
+    "summary": "Would impose a statewide inclusionary zoning mandate on new residential developments, requiring a mix of middle-income, low-income, and very-low-income units. If enacted, it would directly affect pro-forma economics on new residential construction across Pennsylvania by requiring below-market units in every project.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB600": {
+    "summary": "Adds state oversight to housing wholesalers — those who sign purchase contracts on properties and assign them for a fee without taking title. Creates a registration or licensing requirement for a segment of the market that currently operates without state regulation in Pennsylvania.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB529": {
+    "summary": "Creates a Smart Growth Zoning and Housing Program with a dedicated fund to reward Pennsylvania municipalities that adopt zoning reforms expanding housing availability. Carrot-based zoning reform: towns that upzone get state money.",
+    "updated": "2026-07-18"
+  },
+  "PA-HB465": {
+    "summary": "Would redistribute a portion of commercial property tax receipts to school districts to reduce school funding pressure on residential property owners. Could shift the effective tax burden between asset classes — relevant to commercial real estate underwriting in high-rate Pennsylvania school districts.",
+    "updated": "2026-07-19"
+  },
+  "PA-SB1277": {
+    "summary": "A comprehensive LERTA overhaul: revises deteriorated-area definitions, exemption schedules, and procedures; adds ordinance limits and a public registry of abatements; and allows longer abatements for converting vacant buildings to housing.",
+    "updated": "2026-07-18"
+  },
+  "PA-HB214": {
+    "summary": "Would modify which transactions are excluded from the state realty transfer tax and adjust local real estate transfer tax imposition — likely expanding exemptions for first-time buyers or specific transfer types. A targeted tax-reduction bill that could improve deal economics for covered transactions.",
+    "updated": "2026-07-19"
+  },
+  "PA-HB1103": {
+    "summary": "Now law (Act 16 of 2025). Updates mortgage-industry licensing and consumer protection in the Banking Code, clarifying how non-bank lenders may treat discount points on mortgage loans. Passed both chambers unanimously.",
+    "updated": "2026-07-18"
+  },
   "FL-H0001": {
     "summary": "Now enacted: the 'Save our Homes from Excessive Property Taxes' measure. It puts constitutional amendments before voters to tighten the cap on annual assessment increases, raise the homestead exemption, and limit how counties and cities can use ad valorem taxes. A major shift in Florida property-tax economics if voters approve.",
     "updated": "2026-07-18"
@@ -95,85 +327,129 @@
     "summary": "Now law. Streamlines septic permitting: municipalities can no longer require builders of certain homes to get a separate DEP construction permit for onsite sewage systems before issuing building or plumbing permits — builders just show proof instead. Removes a permitting bottleneck for homebuilding outside sewer service areas.",
     "updated": "2026-07-18"
   },
+  "FL-H0679": {
+    "summary": "Signed into Law (April 2026). Modernizes Florida's trademark registration process, requiring an online application portal and adopting the international schedule of goods-and-services classifications. Relevant for real estate brands — brokerages, builders, and developers — seeking Florida trademark protection; the online system streamlines registration.",
+    "updated": "2026-07-19"
+  },
   "FL-S0110": {
     "summary": "Revises when someone is considered to hold legal or beneficial title for homestead-exemption purposes — a technical but consequential change for properties held in trusts, estates, and other indirect ownership structures.",
     "updated": "2026-07-18"
   },
   "FL-H0203": {
-    "summary": "Proposes a constitutional amendment to exempt homestead property from all property taxes except school district levies, phased in from a set year, while barring local governments from cutting first-responder funding. Would dramatically reshape local government finance and the tax calculus on Florida homes.",
-    "updated": "2026-07-18"
+    "summary": "Failed. Would have proposed a constitutional amendment exempting homestead property from all property taxes except school district levies, phased in over time, while barring local governments from cutting first-responder funding. The broader property-tax exemption agenda was consolidated into H.0001, which passed.",
+    "updated": "2026-07-19"
   },
-  "US-HB6644": {
-    "summary": "Now law (Public Law 119-101, signed July 2026). The 21st Century ROAD to Housing Act is the biggest federal housing package in years: it raises FHA multifamily loan limits and indexes them to inflation, expands affordable-housing financing and HOME program income limits, exempts certain residential construction and rehab from environmental review, and drops the permanent-chassis requirement for manufactured homes. Directly expands what multifamily developers can finance through FHA.",
-    "updated": "2026-07-18"
+  "FL-S0552": {
+    "summary": "Failed. Would have conformed Florida statutes to a constitutional amendment eliminating ad valorem taxes on tangible personal property — part of the broader 2026 property-tax reform agenda that was ultimately narrowed into H.0001.",
+    "updated": "2026-07-19"
   },
-  "US-HB2808": {
-    "summary": "Now law (Public Law 119-36). Kills most mortgage \"trigger leads\": credit bureaus can only sell your credit inquiry to third parties in a mortgage transaction if there is a firm offer of credit and consent or an existing relationship. Mortgage originators lose a lead source; borrowers stop getting carpet-bombed after applying.",
-    "updated": "2026-07-18"
+  "FL-H0209": {
+    "summary": "Failed (died on Second Reading). Would have proposed a constitutional amendment raising the non-school homestead exemption by $200,000 for insured properties while barring local governments from cutting first-responder budgets. Superseded by the broader reform in H.0001.",
+    "updated": "2026-07-19"
   },
-  "US-SB2651": {
-    "summary": "The Senate ROAD to Housing package (Sen. Tim Scott, bipartisan) — reforms HUD and FHA programs around housing counseling, small-dollar mortgages, manufactured housing, and program oversight. Reported out of committee and on the Senate calendar; its House counterpart H.R. 6644 is already law.",
-    "updated": "2026-07-18"
+  "FL-H0787": {
+    "summary": "Failed. Would have proposed a constitutional amendment stripping Florida counties and school districts of authority to levy ad valorem taxes entirely. One of the more radical property-tax elimination proposals in the session; died in Ways & Means.",
+    "updated": "2026-07-19"
   },
-  "US-HB2725": {
-    "summary": "The main LIHTC expansion vehicle: increases state low-income housing tax credit allocations, lowers the private-activity-bond threshold to access the 4% credit, and adds basis boosts for rural and tribal projects. If enacted, it materially improves the capital stack on affordable deals.",
-    "updated": "2026-07-18"
+  "FL-H1277": {
+    "summary": "Failed. Would have conformed Florida statutes to eliminate ad valorem taxes on tangible personal property — a conforming cleanup for a constitutional amendment that did not advance.",
+    "updated": "2026-07-19"
   },
-  "US-SB1686": {
-    "summary": "Creates a new federal tax credit covering the value gap on building or rehabbing owner-occupied homes in distressed neighborhoods — the difference between construction cost and achievable sale price. State agencies would award credits competitively to project sponsors.",
-    "updated": "2026-07-18"
+  "FL-S0274": {
+    "summary": "Failed. Would have proposed constitutional amendments freezing assessed value on homestead property after 20 years of ownership and providing a 50% exemption for 30-year owner-residents. Died in Senate Finance and Tax.",
+    "updated": "2026-07-19"
   },
-  "US-HB2410": {
-    "summary": "An office-to-residential conversion tax credit: qualified expenditures for converting older commercial buildings into housing earn a federal credit, allocated through states, with affordability set-asides. The federal incentive the conversion market has been waiting for.",
-    "updated": "2026-07-18"
+  "FL-H0205": {
+    "summary": "Failed. Would have proposed a total homestead exemption from non-school ad valorem taxes for property owners age 65 or older while barring local cuts to law enforcement funding. Died in Ways & Means.",
+    "updated": "2026-07-19"
   },
-  "US-HB2094": {
-    "summary": "The HELPER Act: a new FHA program giving first-time-homebuyer first responders and teachers zero-down mortgages with no monthly mortgage insurance (one upfront premium instead). 144 cosponsors.",
-    "updated": "2026-07-18"
+  "FL-H0607": {
+    "summary": "Failed. A sweeping DBPR reorganization bill that would have transferred powers from the Florida Real Estate Appraisal Board to the department, eliminated postlicensure education requirements for brokers and agents, and consolidated real estate licensing authority. Industry would have faced significantly reduced continuing education burdens had it passed.",
+    "updated": "2026-07-19"
   },
-  "US-SB1299": {
-    "summary": "Directs HUD to publish voluntary best-practice frameworks for state and local zoning reform aimed at cutting barriers to housing production. No mandates, but a federal playbook that pro-supply states can adopt.",
-    "updated": "2026-07-18"
+  "FL-H0207": {
+    "summary": "Failed. Would have proposed a constitutional amendment adding a 25% homestead exemption on assessed value remaining after existing exemptions, for non-school levies. Died in State Affairs.",
+    "updated": "2026-07-19"
   },
-  "US-SB2363": {
-    "summary": "Adds housing feasibility and supply near transit to the scoring criteria for federal transit Capital Investment Grants — pushing cities that want federal transit money to allow transit-oriented development around it.",
-    "updated": "2026-07-18"
+  "FL-H0201": {
+    "summary": "Failed. Would have proposed a constitutional amendment exempting all homestead property from non-school ad valorem taxes while barring local governments from reducing law-enforcement funding. One of several competing full-homestead-exemption proposals that were consolidated into H.0001.",
+    "updated": "2026-07-19"
   },
-  "US-HB8626": {
-    "summary": "Creates a workforce housing tax credit modeled on LIHTC but for middle-income renters who earn too much for LIHTC units yet are priced out of market rate. State agencies would allocate credits to qualified projects.",
-    "updated": "2026-07-18"
+  "FL-S0270": {
+    "summary": "Failed. Would have proposed a constitutional amendment fully exempting homestead property from non-school ad valorem taxes for qualifying seniors (age 65+, 5 years of residency, income cap indexed to CPI). Died in Finance and Tax.",
+    "updated": "2026-07-19"
   },
-  "PA-HB529": {
-    "summary": "Creates a Smart Growth Zoning and Housing Program with a dedicated fund to reward Pennsylvania municipalities that adopt zoning reforms expanding housing availability. Carrot-based zoning reform: towns that upzone get state money.",
-    "updated": "2026-07-18"
+  "FL-S0450": {
+    "summary": "Failed. Would have revised the portability cap on the ad valorem tax exemption that surviving spouses of disabled veterans can carry to a new primary residence. Died in Appropriations.",
+    "updated": "2026-07-19"
   },
-  "PA-HB818": {
-    "summary": "Passed the House 183-20; now in Senate committee. Establishes first-time homebuyer savings accounts with tax benefits for down payments and closing costs, administered by the Treasury Department.",
-    "updated": "2026-07-18"
+  "FL-H0657": {
+    "summary": "Failed. A comprehensive HOA and condo reform bill: addressed termination of dissolved HOAs, easement treatment after dissolution, governing-document amendment requirements, and created a community association court program in each judicial circuit. Died in Rules; the underlying issues remain unresolved.",
+    "updated": "2026-07-19"
   },
-  "PA-HB1103": {
-    "summary": "Now law (Act 16 of 2025). Updates mortgage-industry licensing and consumer protection in the Banking Code, clarifying how non-bank lenders may treat discount points on mortgage loans. Passed both chambers unanimously.",
-    "updated": "2026-07-18"
+  "FL-H0381": {
+    "summary": "Failed. Would have imposed written information-security programs on mortgage brokers and lenders, revised credit union real estate investment limits, and changed bank organization requirements. Also included cybersecurity incident response plan requirements for financial institutions handling mortgage data.",
+    "updated": "2026-07-19"
   },
-  "PA-HB1174": {
-    "summary": "An HOA/condo transparency bill: revises how condominium, cooperative, and planned-community associations must conduct and notice their meetings under Title 68.",
-    "updated": "2026-07-18"
+  "FL-H1545": {
+    "summary": "Failed. Would have clarified that routine repair and maintenance of homestead property does not constitute a 'change or improvement' triggering reassessment, and revised penalties for fraudulent homestead exemption claims. Died in Ways & Means.",
+    "updated": "2026-07-19"
   },
-  "PA-HB1459": {
-    "summary": "Would require municipalities to permit multi-family housing in areas zoned for office use — opening underused office districts to residential development statewide. A significant by-right conversion play if it moves.",
-    "updated": "2026-07-18"
+  "FL-S0540": {
+    "summary": "Failed. Senate companion to H.0381: imposed information-security and incident-response requirements on mortgage brokers and lenders, and added enhanced OFRD oversight of vulnerable-adult financial exploitation. Died in Messages.",
+    "updated": "2026-07-19"
   },
-  "PA-HB2434": {
-    "summary": "Amends the Municipalities Planning Code to create an expedited approval process for high-density housing projects, cutting municipal delay on multi-unit residential approvals.",
-    "updated": "2026-07-18"
+  "FL-S0698": {
+    "summary": "Laid on table (companion H.0589 passed). The Senate version of the septic permitting streamlining bill — superseded when the House bill was signed into law. The substance is now enacted: municipalities can no longer demand a DEP septic permit as a precondition for issuing building or plumbing permits.",
+    "updated": "2026-07-19"
   },
-  "PA-SB264": {
-    "summary": "Expands LERTA — Pennsylvania's local tax-abatement program for improvements to deteriorated property — by modifying the exemption schedule. More abatement room for redevelopment projects.",
-    "updated": "2026-07-18"
+  "FL-H0227": {
+    "summary": "Laid on table (companion CS/SB 110 passed). Would have revised when persons holding leasehold interests may qualify for the homestead exemption — the Senate version was enacted. Relevant for ground-lease structures and properties held in trust.",
+    "updated": "2026-07-19"
   },
-  "PA-SB1277": {
-    "summary": "A comprehensive LERTA overhaul: revises deteriorated-area definitions, exemption schedules, and procedures; adds ordinance limits and a public registry of abatements; and allows longer abatements for converting vacant buildings to housing.",
-    "updated": "2026-07-18"
+  "NJ-S2680": {
+    "summary": "Would set statewide rules for the development and use of accessory dwelling units in New Jersey — a hot ADU-reform bill as the state pushes municipalities to accept more infill housing. Referred to Senate Community and Urban Affairs; ADU-friendly frameworks expand the potential universe of additional rental units on existing lots.",
+    "updated": "2026-07-19"
+  },
+  "DC-B26-0661": {
+    "summary": "The DC FY2027 Budget Support Act — the Council's omnibus budget legislation covering real property tax rates, abatement programs, and housing initiatives for the fiscal year beginning October 2026. Advanced to Final Reading on July 7; contains development and tax provisions that directly affect DC properties and operators.",
+    "updated": "2026-07-19"
+  },
+  "DC-B26-0724": {
+    "summary": "The emergency companion to B26-0661: enacts FY2027 budget provisions that need to take effect before the regular act is finalized. Retained by the Council on July 14; provisions with real-estate impact likely mirror the main Budget Support Act.",
+    "updated": "2026-07-19"
+  },
+  "NJ-S1786": {
+    "summary": "A second New Jersey ADU bill with a broader development framework and local fiscal provisions; referred to Senate Budget and Appropriations (versus S.2680 in Community and Urban Affairs). Together the two bills signal strong momentum for statewide ADU reform in New Jersey.",
+    "updated": "2026-07-19"
+  },
+  "ME-LD161": {
+    "summary": "Signed into Law (March 2026). Directs Maine's Office of Community Affairs to convene a working group for a comprehensive overhaul of Maine's subdivision laws. A precursor to major zoning and land-division reform — the group's recommendations could reshape residential development rules statewide.",
+    "updated": "2026-07-19"
+  },
+  "HI-SB2068": {
+    "summary": "Creates an Affordable Housing Land Inventory Task Force within Hawaii's Office of Planning and Sustainable Development to study maximizing housing development on state and county lands in transit-oriented zones. Signals potential future dispositions or ground-lease opportunities on state-owned parcels near transit; a report to the Legislature is required.",
+    "updated": "2026-07-19"
+  },
+  "DC-B26-0265": {
+    "summary": "Signed into Law as L26-0055 (January 2026, effective December 2025). The DC FY2026 Budget Support Act, now in effect — its real property tax and development provisions govern the current fiscal year for properties and projects in the District.",
+    "updated": "2026-07-19"
+  },
+  "UT-HB0068": {
+    "summary": "Signed into Law (March 2026). Utah's Housing and Community Development Amendments update homelessness programs, workforce services, and affordable housing infrastructure under the Department of Workforce Services. Relevant to affordable housing operators and service providers developing supportive housing in Utah.",
+    "updated": "2026-07-19"
+  },
+  "VA-HB368": {
+    "summary": "Continued to next session. Acknowledges the inherent sovereignty of federally recognized tribes in Virginia and establishes uniform definitions — relevant where tribal land trust or sovereign-nation status could affect real estate title, development rights, or transaction due diligence in Virginia.",
+    "updated": "2026-07-19"
+  },
+  "VA-SB356": {
+    "summary": "Senate companion to HB368; also continued to next session. Same tribal sovereignty recognition — monitor both bills as they return next session, particularly for developers or lenders working near tribal ancestral territories.",
+    "updated": "2026-07-19"
+  },
+  "MA-H5518": {
+    "summary": "A Massachusetts bill referred to companion S.3064; no official summary or substantive title is available in the data. Monitor S.3064 for the operative text — this bill serves as a cross-reference and has no independent status.",
+    "updated": "2026-07-19"
   },
   "NY-S03397": {
     "summary": "The Faith-Based Affordable Housing Act: lets religious organizations build affordable housing on residential land they own, overriding certain local zoning restrictions if the project meets state requirements. A meaningful land-supply unlock — congregations own a lot of underused parcels.",
