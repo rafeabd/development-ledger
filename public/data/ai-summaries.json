@@ -482,5 +482,45 @@
   "NY-A09554": {
     "summary": "The Deed Protection Act, passed the Assembly in May. Blocks foreclosure on mortgages the lender knows (or should know) rest on a deed procured by fraud or forgery — New York's legislative answer to deed theft. Title and lending diligence implications.",
     "updated": "2026-07-18"
+  },
+  "US-HB6644": {
+    "summary": "Signed into Law (July 11, 2026, P.L. 119-101). The 21st Century ROAD to Housing Act is the most consequential federal housing legislation in years — a comprehensive supply bill that expands FHA multifamily loan limits, broadens HOME program eligibility, streamlines environmental review for residential construction and rehab, and eliminates the permanent-chassis requirement for manufactured homes. Developers and lenders with FHA-backed pipelines should review underwriting assumptions against the new limits as HUD releases implementing guidance.",
+    "updated": "2026-07-20"
+  },
+  "US-HB8626": {
+    "summary": "Proposes a new federal tax credit for workforce (middle-income) housing — a market segment too high-income for LIHTC but too expensive to build without subsidy in most markets. If enacted, it would open a new tax-equity financing lane for projects that currently pencil only in the strongest metros; referred to House Ways and Means.",
+    "updated": "2026-07-20"
+  },
+  "US-HB2808": {
+    "summary": "Signed into Law (September 5, 2025, P.L. 119-36). Amends the Fair Credit Reporting Act to restrict 'trigger leads' — the practice of selling homebuyer contact information to competing lenders the moment a mortgage credit inquiry is run. Lenders whose lead-generation pipelines rely on credit-inquiry triggers must adjust their acquisition model; the law is already in effect.",
+    "updated": "2026-07-20"
+  },
+  "US-SB2651": {
+    "summary": "The Senate vehicle for the ROAD to Housing Act framework — an original supply bill placed on the Senate Legislative Calendar in August 2025. It served as the Senate companion to the legislation that was ultimately enacted as the 21st Century ROAD to Housing Act (H.R. 6644, P.L. 119-101) in July 2026.",
+    "updated": "2026-07-20"
+  },
+  "US-SB2363": {
+    "summary": "Would tie affordable housing incentives to FTA capital investment grants, requiring or rewarding transit-oriented affordable development as a condition of 'New Starts' federal transit funding. Referred to Senate Banking; if enacted, it would link density and affordability outcomes directly to federal transit project approvals, creating a new policy lever for TOD developers.",
+    "updated": "2026-07-20"
+  },
+  "US-SB1686": {
+    "summary": "The Neighborhood Homes Investment Act: proposes a federal tax credit for developing or rehabilitating homes in distressed communities where sale values fall below construction costs — the 'value gap' that makes infill housing unfinanceable in older urban and rural markets. A recurring bipartisan bill; referred to Senate Finance. If enacted, it would unlock the most capital-constrained residential markets for development.",
+    "updated": "2026-07-20"
+  },
+  "US-HB2725": {
+    "summary": "A comprehensive LIHTC reform bill: would expand annual credit allocations, strengthen the 9% credit, and modify income-averaging rules for mixed-income projects. The most closely watched tax bill for affordable housing developers and their tax-equity investors; referred to House Ways and Means. Movement here would directly improve deal economics across the LIHTC pipeline.",
+    "updated": "2026-07-20"
+  },
+  "US-SB1299": {
+    "summary": "Senate companion to H.R. 2840: directs HUD to publish voluntary best-practice frameworks for state and local zoning reform, covering density, parking minimums, minimum lot sizes, and approval timelines. No mandates — purely guidance — but gives reform-minded localities a federal imprimatur to reference when upzoning over local opposition.",
+    "updated": "2026-07-20"
+  },
+  "US-HB2410": {
+    "summary": "Would create a new federal investment tax credit for converting non-residential buildings — offices, hotels, retail — to affordable housing. Unlike the historic tax credit, it would apply to non-historic buildings and require below-market rents, giving the office-to-residential conversion wave a new financing tool tied to affordability; referred to House Ways and Means.",
+    "updated": "2026-07-20"
+  },
+  "US-HB2094": {
+    "summary": "The HELPER Act: would establish an FHA mortgage insurance program with favorable terms for first responders, educators, and similar public-sector workers — targeting the profession-specific homeownership gap in high-cost markets. Referred to House Financial Services; of interest to lenders seeking to originate government-backed loans in public-servant concentrations.",
+    "updated": "2026-07-20"
   }
 }
