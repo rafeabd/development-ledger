@@ -1,5 +1,101 @@
-import type { AiSummaries, Bill, Briefing, Jurisdiction } from './types'
+import type {
+  AiSummaries,
+  AssetClass,
+  Bill,
+  Briefing,
+  Jurisdiction,
+  Mechanics,
+  Opportunities,
+  Opportunity,
+  OpportunitySignal,
+  OpportunityType,
+} from './types'
 import { billKey } from './types'
+
+const SIGNAL_LABEL: Record<OpportunitySignal, string> = {
+  opportunity: 'Opportunity',
+  risk: 'Risk',
+  neutral: 'Neutral',
+}
+
+const TYPE_LABEL: Record<OpportunityType, string> = {
+  incentive: 'Incentive',
+  timing: 'Timing',
+  'risk-cost': 'Cost / Risk',
+}
+
+const ASSET_LABEL: Record<AssetClass, string> = {
+  multifamily: 'Multifamily',
+  commercial: 'Commercial',
+  lending: 'Lending',
+  land: 'Land',
+}
+
+function cardId(bill: Bill): string {
+  return `bill-${billKey(bill)}`
+}
+
+function signalRow(opp: Opportunity): HTMLElement {
+  const row = el('div', 'signal-row')
+  row.append(el('span', `sig-chip sig-${opp.signal}`, SIGNAL_LABEL[opp.signal]))
+  row.append(el('span', 'urgency-badge', `Urgency ${opp.urgency}`))
+  for (const t of opp.types) row.append(el('span', 'tag-chip tag-type', TYPE_LABEL[t]))
+  for (const a of opp.assets) row.append(el('span', 'tag-chip tag-asset', ASSET_LABEL[a]))
+  return row
+}
+
+function hasMechanics(m: Mechanics): boolean {
+  return (
+    m.dollars.length > 0 ||
+    m.rates.length > 0 ||
+    m.deadlines.length > 0 ||
+    Boolean(m.eligibility) ||
+    Boolean(m.authority)
+  )
+}
+
+function mechRow(label: string, items: string[]): HTMLElement | null {
+  if (items.length === 0) return null
+  const row = el('div', 'mech-row')
+  row.append(el('dt', 'mech-label', label))
+  const dd = el('dd', 'mech-values')
+  for (const item of items) dd.append(el('span', 'mech-value', item))
+  row.append(dd)
+  return row
+}
+
+/** Expandable block of hard specifics extracted from the bill's full text. */
+function mechanicsBlock(m: Mechanics): HTMLElement {
+  const details = el('details', 'bill-mechanics')
+  const summary = el('summary', 'summary-label mech-summary', 'Money mechanics')
+  details.append(summary)
+
+  const dl = el('dl', 'mech-list')
+  const rows = [
+    mechRow('Dollars', m.dollars),
+    mechRow('Rates', m.rates),
+    mechRow('Deadlines', m.deadlines),
+    mechRow('Eligibility', m.eligibility ? [m.eligibility] : []),
+    mechRow('Authority', m.authority ? [m.authority] : []),
+  ].filter((r): r is HTMLElement => r !== null)
+  for (const row of rows) dl.append(row)
+  details.append(dl)
+
+  const validDate = /^\d{4}-\d{2}-\d{2}$/.test(m.source.date) && !m.source.date.startsWith('0000')
+  const provText = validDate
+    ? `From the ${m.source.type} text (${formatDate(m.source.date)})`
+    : `From the ${m.source.type} text`
+  const prov = el('p', 'mech-prov')
+  const provLink = el('a', 'mech-prov-link', provText)
+  provLink.href = m.source.url
+  provLink.target = '_blank'
+  provLink.rel = 'noopener'
+  prov.append(provLink)
+  prov.append(document.createTextNode(' — figures quoted from the bill; verify before acting.'))
+  details.append(prov)
+
+  return details
+}
 
 const STATUS_TONE: Record<string, string> = {
   'Signed Into Law': 'signed',
@@ -43,10 +139,15 @@ function summaryBlock(label: string, text: string, variant: string): HTMLElement
   return details
 }
 
-export function renderBill(bill: Bill, ai: AiSummaries): HTMLElement {
+export function renderBill(bill: Bill, ai: AiSummaries, opps: Opportunities): HTMLElement {
   const card = el('article', 'bill-card')
+  card.id = cardId(bill)
   card.dataset.status = bill.status
   card.dataset.search = `${bill.number} ${bill.title} ${bill.subjects.join(' ')} ${bill.officialSummary ?? ''}`.toLowerCase()
+
+  const opp = opps[billKey(bill)]
+  card.dataset.signal = opp?.signal ?? ''
+  card.dataset.assets = opp?.assets.join(' ') ?? ''
 
   const head = el('div', 'bill-head')
   const numberLine = el('p', 'bill-number')
@@ -56,6 +157,12 @@ export function renderBill(bill: Bill, ai: AiSummaries): HTMLElement {
   card.append(head)
 
   card.append(el('h3', 'bill-title', bill.title))
+
+  if (opp) {
+    card.append(signalRow(opp))
+    if (opp.play) card.append(el('p', 'bill-play', opp.play))
+    if (opp.mechanics && hasMechanics(opp.mechanics)) card.append(mechanicsBlock(opp.mechanics))
+  }
 
   if (bill.lastAction) {
     const action = el('p', 'bill-action')
@@ -93,6 +200,7 @@ export function renderSection(
   slug: string,
   bills: Bill[],
   ai: AiSummaries,
+  opps: Opportunities,
   note?: string,
 ): HTMLElement {
   const section = el('section', 'jurisdiction')
@@ -108,7 +216,7 @@ export function renderSection(
   if (note) section.append(el('p', 'jurisdiction-note', note))
 
   const list = el('div', 'bill-list')
-  for (const bill of bills) list.append(renderBill(bill, ai))
+  for (const bill of bills) list.append(renderBill(bill, ai, opps))
   section.append(list)
 
   const empty = el('p', 'jurisdiction-empty', 'No bills match the current filters.')
@@ -132,6 +240,70 @@ export function renderBriefing(briefing: Briefing) {
   for (const para of briefing.paragraphs) body.append(el('p', 'briefing-para', para))
   body.append(el('p', 'briefing-date', formatDate(briefing.date)))
   host.hidden = false
+}
+
+const PLAY_FEED_LIMIT = 15
+
+interface RankedPlay {
+  bill: Bill
+  opp: Opportunity
+}
+
+function renderPlayRow(bill: Bill, opp: Opportunity): HTMLElement {
+  const item = el('li', `play-row play-${opp.signal}`)
+
+  const rank = el('a', 'play-urgency')
+  rank.href = `#${cardId(bill)}`
+  rank.append(el('span', 'play-urgency-num', String(opp.urgency)))
+  rank.append(el('span', 'play-urgency-label', 'urgency'))
+  item.append(rank)
+
+  const body = el('div', 'play-body')
+
+  const meta = el('p', 'play-meta')
+  meta.append(el('span', `sig-chip sig-${opp.signal}`, SIGNAL_LABEL[opp.signal]))
+  meta.append(el('span', 'play-jur', `${bill.jurisdiction} ${bill.number}`))
+  for (const a of opp.assets) meta.append(el('span', 'tag-chip tag-asset', ASSET_LABEL[a]))
+  if (opp.mechanics && hasMechanics(opp.mechanics)) {
+    meta.append(el('span', 'play-specifics', '◆ specifics'))
+  }
+  body.append(meta)
+
+  const text = el('a', 'play-text', opp.play || bill.title)
+  text.href = `#${cardId(bill)}`
+  body.append(text)
+
+  item.append(body)
+  return item
+}
+
+/** Ranked cross-jurisdiction feed of the highest-urgency opportunities and risks. */
+export function renderPlayFeed(bills: Bill[], opps: Opportunities): HTMLElement | null {
+  const ranked: RankedPlay[] = bills
+    .map((bill) => ({ bill, opp: opps[billKey(bill)] }))
+    .filter((x): x is RankedPlay => Boolean(x.opp) && x.opp.signal !== 'neutral')
+    .sort((a, b) => b.opp.urgency - a.opp.urgency)
+
+  if (ranked.length === 0) return null
+
+  const top = ranked.slice(0, PLAY_FEED_LIMIT)
+  const section = el('section', 'play-feed')
+  section.id = 'plays'
+  section.setAttribute('aria-labelledby', 'plays-heading')
+
+  const heading = el('h2', 'play-feed-heading')
+  heading.id = 'plays-heading'
+  heading.append(el('span', 'play-feed-title', 'The Play'))
+  heading.append(
+    el('span', 'play-feed-sub', `Top ${top.length} of ${ranked.length} by urgency`),
+  )
+  section.append(heading)
+
+  const list = el('ol', 'play-list')
+  for (const { bill, opp } of top) list.append(renderPlayRow(bill, opp))
+  section.append(list)
+
+  return section
 }
 
 export function elsewhereGroups(bills: Bill[]): Jurisdiction[] {

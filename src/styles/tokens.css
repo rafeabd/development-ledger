@@ -15,6 +15,14 @@
   --color-moving: oklch(48% 0.1 250);
   --color-moving-soft: oklch(93% 0.03 250);
 
+  /* opportunity signals */
+  --color-opp: oklch(46% 0.11 150);
+  --color-opp-soft: oklch(93% 0.04 150);
+  --color-risk: oklch(50% 0.13 25);
+  --color-risk-soft: oklch(94% 0.035 25);
+  --color-tag: oklch(40% 0.02 60);
+  --color-tag-soft: oklch(90% 0.012 85);
+
   /* type */
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Inter', -apple-system, system-ui, sans-serif;

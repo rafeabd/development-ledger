@@ -1,0 +1,1945 @@
+{
+  "US-HB6644": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "lending",
+      "commercial"
+    ],
+    "urgency": 94,
+    "play": "Reprice your FHA multifamily pipeline now that loan limits are raised and indexed, and fast-track deals that qualify for the new environmental-review exemptions.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "$100,000 or less original principal balance — small-dollar mortgage definition"
+      ],
+      "rates": [],
+      "eligibility": "1- to 4-unit principal-residence property for FHA small-dollar mortgage pilot; broad 'eligible entity' set for point-access block grants",
+      "deadlines": [
+        "Sec. 104 database eligible-activity amendment effective October 1, 2026",
+        "Point-access block grant program sunsets 7 years after enactment",
+        "FHA small-dollar mortgage pilot sunsets 4 years after establishment",
+        "No new small-dollar pilot may be established after 3-year period from enactment",
+        "Temperature sensor pilot sunsets 3 years after enactment",
+        "HUD point-access block guidelines due within 18 months of enactment",
+        "FHA small-dollar pilot may be established within 1 year of enactment"
+      ],
+      "authority": "Department of Housing and Urban Development (Federal Housing Commissioner / FHA); Secretary of Agriculture for infill provisions",
+      "source": {
+        "url": "https://legiscan.com/US/text/HB6644/id/3451078",
+        "type": "Enrolled",
+        "date": "2026-06-25"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "US-HB9540": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "lending",
+      "land"
+    ],
+    "urgency": 48,
+    "play": "Position shared-equity and affordable projects to tap the new federal funding and inclusive-zoning provisions if this package moves.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "$44,500,000,000/yr to Housing Trust Fund, FY2027-2036",
+        "$1,500,000,000/yr to Capital Magnet Fund, FY2027-2036",
+        "$9,925,000,000 for HOME program (subsection (a)(1))",
+        "$14,925,000,000 for HOME program (subsection (a)(2))",
+        "$50,000,000 for technical assistance providers",
+        "$100,000,000 for HUD administration/oversight",
+        "$1,646,000,000 for Unlocking Possibilities competitive grants",
+        "$8,000,000 for research and evaluation",
+        "$3,000,000 technical assistance to grantees",
+        "$66,000,000 for Secretary administration/oversight"
+      ],
+      "rates": [
+        "GSE fee raised from 4.2 basis points to 10 basis points",
+        "not more than 10 percent for subparagraph (B)(i) activities",
+        "grantees may use not more than 15 percent for administrative/planning costs",
+        "up to 15 percent of grant for administrative costs"
+      ],
+      "eligibility": "State, insular area, metropolitan city, or urban county; regional planning agency or consortia for certain grants",
+      "deadlines": [
+        "HOME appropriations remain available until September 30, 2030",
+        "technical assistance/admin funds available until September 30, 2036",
+        "Unlocking Possibilities funds available until September 30, 2036",
+        "allocations made within 60 days of enactment"
+      ],
+      "authority": "Secretary of Housing and Urban Development; HUD Office of Community Land Use and Zoning",
+      "source": {
+        "url": "https://legiscan.com/US/text/HB9540/id/3452577",
+        "type": "Introduced",
+        "date": "2026-07-07"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "US-HB6779": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "land"
+    ],
+    "urgency": 42,
+    "play": "Structure farmland deals through partnerships or LLCs where a 50% stakeholder can qualify for the expanded USDA direct loans.",
+    "updated": "2026-07-24"
+  },
+  "US-HB8700": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land",
+      "lending"
+    ],
+    "urgency": 40,
+    "play": "Screen land deals near military or critical-infrastructure sites for the new CFIUS review layer before bringing in foreign capital.",
+    "updated": "2026-07-24"
+  },
+  "US-HB8626": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "lending"
+    ],
+    "urgency": 45,
+    "play": "Model a middle-income workforce housing credit into your capital stack for tenants who earn too much for LIHTC.",
+    "updated": "2026-07-24"
+  },
+  "US-HB6480": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "commercial",
+      "land"
+    ],
+    "urgency": 24,
+    "play": "Watch for the GSA portfolio report as an early signal of federal buildings that could hit the market for acquisition or conversion.",
+    "updated": "2026-07-24"
+  },
+  "US-HB7388": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "commercial",
+      "lending"
+    ],
+    "urgency": 40,
+    "play": "Track the GSA alternative-financing consultations for federal build-to-suit and P3 opportunities.",
+    "updated": "2026-07-24"
+  },
+  "US-SB3937": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "lending"
+    ],
+    "urgency": 38,
+    "play": "Stress-test your SFR and build-to-rent acquisition strategy against a possible antitrust ban on large-entity single-family purchases.",
+    "updated": "2026-07-24"
+  },
+  "US-SB3936": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "land"
+    ],
+    "urgency": 42,
+    "play": "Use partnership structures to access the expanded USDA guaranteed and direct loans for farm real estate if the Senate version advances.",
+    "updated": "2026-07-24"
+  },
+  "US-HB3495": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [],
+    "urgency": 20,
+    "play": "Note the clarified independent-contractor status for real estate agents; minimal direct effect on development.",
+    "updated": "2026-07-24"
+  },
+  "US-HB6342": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 30,
+    "play": "Flag condo and co-op portfolios in disaster zones for potential Stafford Act recovery assistance if this advances.",
+    "updated": "2026-07-24"
+  },
+  "US-HB6511": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "lending",
+      "multifamily"
+    ],
+    "urgency": 36,
+    "play": "Explore seller-financing deals that would be freed from licensing requirements for small financers under this exemption.",
+    "updated": "2026-07-24"
+  },
+  "US-HB2808": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "lending"
+    ],
+    "urgency": 55,
+    "play": "If you originate mortgages, rebuild lead sourcing now that trigger leads are law-restricted to firm offers with consent.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [],
+      "eligibility": "consumer report requests tied to a residential mortgage loan credit transaction",
+      "deadlines": [
+        "takes effect 180 days after enactment",
+        "GAO report due within 12-month period after enactment"
+      ],
+      "authority": "Comptroller General of the United States (GAO study)",
+      "source": {
+        "url": "https://legiscan.com/US/text/HB2808/id/3264562",
+        "type": "Enrolled",
+        "date": "2025-08-08"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "US-SB2651": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "multifamily"
+    ],
+    "urgency": 44,
+    "play": "Watch the Senate ROAD package for HUD/FHA program reforms on small-dollar mortgages and manufactured housing.",
+    "updated": "2026-07-24"
+  },
+  "US-SB2573": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 18,
+    "play": "Study-only bill on foreign residential purchases; monitor for follow-on restrictions.",
+    "updated": "2026-07-24"
+  },
+  "US-HB4706": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 30,
+    "play": "Track this foreign-buyer ban on ag land and homes if any of your capital sources are foreign entities.",
+    "updated": "2026-07-24"
+  },
+  "US-SB2363": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 40,
+    "play": "Line up transit-oriented sites in cities chasing federal transit grants, which would reward allowing housing density nearby.",
+    "updated": "2026-07-24"
+  },
+  "US-SB2258": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 28,
+    "play": "Senate companion foreign-buyer ban on ag and residential land; watch if foreign capital is in your stack.",
+    "updated": "2026-07-24"
+  },
+  "US-HB3981": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [],
+    "urgency": 12,
+    "play": "Administrative federal charter for a veterans' real estate group; no development impact.",
+    "updated": "2026-07-24"
+  },
+  "US-HB3588": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land",
+      "lending"
+    ],
+    "urgency": 28,
+    "play": "If you transact with non-citizen buyers, watch this proposed IRS reporting and purchase tax on foreign real estate buys.",
+    "updated": "2026-07-24"
+  },
+  "US-SB1686": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "land",
+      "lending"
+    ],
+    "urgency": 46,
+    "play": "Line up distressed-neighborhood rehab and infill sites to capture the proposed value-gap tax credit if it clears.",
+    "updated": "2026-07-24"
+  },
+  "US-HB2840": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "land"
+    ],
+    "urgency": 20,
+    "play": "HUD zoning best-practice guidance only; monitor which states adopt the pro-supply frameworks.",
+    "updated": "2026-07-24"
+  },
+  "US-HB2725": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "lending"
+    ],
+    "urgency": 52,
+    "play": "Model the higher LIHTC allocations and lower 4%-bond threshold into affordable deals; queue rural and tribal projects for the basis boost.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "per capita allocation amount $4.25 for calendar year 2025 (from $1.75)",
+        "minimum State allocation amount $4,876,000 for calendar year 2025 (from $2,000,000)"
+      ],
+      "rates": [
+        "1.25 multiplier for 2026 per capita and minimum amounts",
+        "60 percent of area median gross income low-income threshold",
+        "120 percent AMGI cap on rehabilitated-unit occupants",
+        "80 percent AMGI substituted for 60 percent under average-income exception"
+      ],
+      "eligibility": "low-income housing tax credit projects and tenants under IRC section 42",
+      "deadlines": [
+        "Sec. 101 applies to calendar years after December 31, 2024",
+        "reconstruction period not to exceed 25 months after casualty loss (extendable up to 12 months)",
+        "student-rule amendments apply to taxable years after December 31, 2025"
+      ],
+      "authority": "applicable housing credit agency (State) / Internal Revenue Code section 42",
+      "source": {
+        "url": "https://legiscan.com/US/text/HB2725/id/3215008",
+        "type": "Introduced",
+        "date": "2025-04-17"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "US-SB1299": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "land"
+    ],
+    "urgency": 20,
+    "play": "Voluntary HUD zoning-reform playbook; watch for state adoption that eases housing production.",
+    "updated": "2026-07-24"
+  },
+  "US-HB2410": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "commercial",
+      "multifamily",
+      "lending"
+    ],
+    "urgency": 50,
+    "play": "Underwrite office-to-residential conversions against the proposed federal conversion credit and pre-position affordability set-asides.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "$100,000 floor for qualified conversion expenditures",
+        "$12,000,000,000 national qualified conversion credit limitation",
+        "$3,000,000,000 cap on Secretary-designated distressed-area amounts",
+        "$2,000,000 expenditure cap for rural historic 35% election"
+      ],
+      "rates": [
+        "20 percent credit on qualified conversion expenditures",
+        "expenditures must exceed 50 percent of adjusted basis",
+        "reduced by 50 percent if also claiming rehabilitation credit",
+        "20 percent of units rent-restricted at 80 percent AMI or less",
+        "30 percent (substituted for 20) in qualified census/difficult development areas at 60 percent AMI",
+        "35 percent election for rural historic preservation projects",
+        "building placed in service not less than 20 years before conversion"
+      ],
+      "eligibility": "conversion of eligible commercial (nonresidential) building 20+ years old into affordable housing",
+      "deadlines": [
+        "applies to buildings placed in service after enactment",
+        "expenditures within 2-year period ending on placed-in-service date",
+        "30-year affordability period from placed-in-service date",
+        "no allocation by undersubscribed States after December 31, 2028",
+        "Secretary establishes designation program within 120 days of enactment"
+      ],
+      "authority": "State housing credit agency (under IRC section 42(h)(8)); Secretary of the Treasury",
+      "source": {
+        "url": "https://legiscan.com/US/text/HB2410/id/3203404",
+        "type": "Introduced",
+        "date": "2025-04-06"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "US-HB2094": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "multifamily"
+    ],
+    "urgency": 44,
+    "play": "Target first-responder and teacher buyers for a zero-down, no-PMI FHA product if the HELPER Act advances.",
+    "updated": "2026-07-24"
+  },
+  "US-SB1012": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 22,
+    "play": "Oversight bill on foreign ag-land investment; note added scrutiny if foreign capital funds farmland deals.",
+    "updated": "2026-07-24"
+  },
+  "US-HB892": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "lending"
+    ],
+    "urgency": 18,
+    "play": "Disclosure bill on federally insured loans; minimal direct action for developers.",
+    "updated": "2026-07-24"
+  },
+  "US-SB838": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "land"
+    ],
+    "urgency": 40,
+    "play": "If you lend on rural or ag real estate, model the tax-free interest exclusion that would sharpen your pricing edge.",
+    "updated": "2026-07-24"
+  },
+  "US-HB1822": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "land"
+    ],
+    "urgency": 40,
+    "play": "House ACRE Act companion: watch the interest exclusion on rural and ag-secured loans for a lending advantage.",
+    "updated": "2026-07-24"
+  },
+  "US-HB1094": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [],
+    "urgency": 12,
+    "play": "Amateur-radio antenna restriction bill; no material development impact.",
+    "updated": "2026-07-24"
+  },
+  "US-SB352": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 26,
+    "play": "Note potential Stafford Act disaster aid for condos and co-ops if this stalled bill revives.",
+    "updated": "2026-07-24"
+  },
+  "US-SB176": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 24,
+    "play": "Proposed ban on Chinese purchases of U.S. real estate; watch if PRC capital touches your deals.",
+    "updated": "2026-07-24"
+  },
+  "NY-S08612": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 58,
+    "play": "Re-check how good-cause eviction treats your newer NY units as these technical corrections move through the Assembly.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [
+        "Inflation index = 5% plus annual CPI change (good cause rent standard)",
+        "Rent presumptively unreasonable if increase exceeds lower of (5% + CPI) or 10%",
+        "Good cause exemption where monthly rent exceeds 245% of fair market rent",
+        "Notice required if renewal rent increase >= 5% above current rent"
+      ],
+      "eligibility": "Units under NY good cause eviction law; exemptions for condo/co-op units with consummated offering plans and newly-created units with post-Jan 1, 2009 certificate of occupancy (30-year window)",
+      "deadlines": [
+        "Inflation index / fair market rent publication moved from Aug 1 to June 1, effective October 1 same year",
+        "Lease-change notice window 30 to 100 days (was 90) before renewal commencement",
+        "Act takes effect immediately",
+        "30-year good-cause exemption from certificate of occupancy issuance"
+      ],
+      "authority": "New York State Division of Housing and Community Renewal; office of the attorney general (offering plans)",
+      "source": {
+        "url": "https://legiscan.com/NY/text/S08612/id/3434498",
+        "type": "Amended",
+        "date": "2025-12-12"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "NY-A10679": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 55,
+    "play": "Drop pocket-listing strategy on NY residential inventory and prepare the state disclosure for any off-market sale.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "fine not exceeding five thousand dollars for license violations (up from two thousand)"
+      ],
+      "rates": [
+        "fifty percent of fine moneys payable to anti-discrimination in housing fund"
+      ],
+      "eligibility": "listing agents representing sellers/landlords of residential real property",
+      "deadlines": [
+        "takes effect 180th day after becoming law",
+        "signed opt-out form retained not less than three years"
+      ],
+      "authority": "New York department of state",
+      "source": {
+        "url": "https://legiscan.com/NY/text/A10679/id/3436092",
+        "type": "Amended",
+        "date": "2026-03-20"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "NY-S10274": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 45,
+    "play": "Senate companion to the pocket-listing ban; assume public-marketing requirements on NY residential sales.",
+    "updated": "2026-07-24"
+  },
+  "NY-A09554": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "lending",
+      "land"
+    ],
+    "urgency": 60,
+    "play": "Tighten title and deed diligence on NY residential loans now that the Deed Protection Act has passed the Assembly.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [],
+      "eligibility": "Mortgage bankers/loan servicers barred from foreclosing where mortgage depends on a fraudulent/forged title to residential real property",
+      "deadlines": [
+        "Act takes effect immediately"
+      ],
+      "authority": null,
+      "source": {
+        "url": "https://legiscan.com/NY/text/A09554/id/3432791",
+        "type": "Amended",
+        "date": "2026-01-14"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "NY-A11490": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 42,
+    "play": "Audit any revenue-management or algorithmic pricing software before NY bans it in home sales and rentals.",
+    "updated": "2026-07-24"
+  },
+  "NY-A11403": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial"
+    ],
+    "urgency": 38,
+    "play": "Rein in AI-enhanced or virtually staged listing photos in NY to avoid deceptive-practice and license exposure.",
+    "updated": "2026-07-24"
+  },
+  "NY-S10500": {
+    "signal": "risk",
+    "types": [
+      "risk-cost",
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 44,
+    "play": "For 485-x condo units, plan for a five-year primary-residence covenant that would block investor buyers from the exemption.",
+    "updated": "2026-07-24"
+  },
+  "NY-S10345": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 42,
+    "play": "Re-underwrite 485-x option-D rents to the proposed annual CPI adjustment before locking your affordability pro forma.",
+    "updated": "2026-07-24"
+  },
+  "NY-S09584": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial"
+    ],
+    "urgency": 34,
+    "play": "Senate companion on misleading listing images; keep NY digital marketing accurate to protect licenses.",
+    "updated": "2026-07-24"
+  },
+  "NY-S09564": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 32,
+    "play": "Update buyer-broker agreements to disclose compensation clearly for NY residential deals.",
+    "updated": "2026-07-24"
+  },
+  "NY-S09259": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "commercial",
+      "multifamily",
+      "land"
+    ],
+    "urgency": 48,
+    "play": "Scout upstate office buildings for conversion to tap the proposed ESD office-to-residential and historic-rehab credits.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "$2,500,000 minimum qualified rehabilitation expenditures per project",
+        "$5,000,000 credit cap per conversion project",
+        "$25,000,000 aggregate credit cap (office-to-residential)",
+        "$5,000,000 credit cap per historic conversion project",
+        "$25,000,000 aggregate credit cap (historic conversion)"
+      ],
+      "rates": [
+        "10 percent of qualified rehabilitation expenditures (credit)",
+        "10 percent additional historic rehabilitation credit",
+        "at least 50 percent of gross square footage residential after rehab",
+        "at least 50 percent of building physically vacant as of Jan 1, 2026",
+        "at least 75 percent of external walls retained",
+        "at least 75 percent of internal structural framework retained"
+      ],
+      "eligibility": "substantial rehab of qualified building (25,000+ sq ft) in city/town/village under one million population, converted to residential",
+      "deadlines": [
+        "placed in service as nonresidential within 10 years preceding application",
+        "vacancy measured as of January first, 2026",
+        "effective January first following enactment",
+        "expires/repealed ten years after effective date"
+      ],
+      "authority": "Empire State Development Corporation; State Historic Preservation Office",
+      "source": {
+        "url": "https://legiscan.com/NY/text/S09259/id/3368285",
+        "type": "Introduced",
+        "date": "2026-02-19"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "NY-A05499": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 34,
+    "play": "Revisit NY agent compensation and representation agreements ahead of a dual-agency ban and negotiable-fee mandate.",
+    "updated": "2026-07-24"
+  },
+  "NY-S06958": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 32,
+    "play": "Track this NY fair-housing bill requiring municipalities to affirmatively create affordable housing.",
+    "updated": "2026-07-24"
+  },
+  "NY-A05169": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 18,
+    "play": "Longer broker license-revocation window; minor operational note for NY agents.",
+    "updated": "2026-07-24"
+  },
+  "NY-A07682": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 20,
+    "play": "New licensing for apartment-info vendors; check compliance if you monetize rental listings.",
+    "updated": "2026-07-24"
+  },
+  "NY-A06922": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 24,
+    "play": "Add source-of-income notices to NY rental platforms and leasing workflows if this advances.",
+    "updated": "2026-07-24"
+  },
+  "NY-A08910": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 28,
+    "play": "Assembly buyer-broker disclosure companion; align NY commission agreements accordingly.",
+    "updated": "2026-07-24"
+  },
+  "NY-A02274": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 14,
+    "play": "Appraiser fine allocation; negligible development impact.",
+    "updated": "2026-07-24"
+  },
+  "NY-S03564": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 14,
+    "play": "Senate twin on appraiser fines; negligible development impact.",
+    "updated": "2026-07-24"
+  },
+  "NY-A06061": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 30,
+    "play": "Watch this ban on corporate acquisition of single-family homes for rental if you run an SFR or BTR strategy in NY.",
+    "updated": "2026-07-24"
+  },
+  "NY-A04830": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 20,
+    "play": "Paired-testing anti-discrimination program with compliance fees; tighten fair-housing training.",
+    "updated": "2026-07-24"
+  },
+  "NY-S05524": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 20,
+    "play": "Senate paired-testing companion; ensure fair-housing compliance across leasing and sales.",
+    "updated": "2026-07-24"
+  },
+  "NY-S04058": {
+    "signal": "opportunity",
+    "types": [
+      "timing",
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 34,
+    "play": "Note the proposed state zoning-appeals route that could override local denials of affordable projects.",
+    "updated": "2026-07-24"
+  },
+  "NY-A01492": {
+    "signal": "opportunity",
+    "types": [
+      "timing",
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 32,
+    "play": "Assembly companion creating an affordable-housing zoning appeals path; watch for a supply unlock.",
+    "updated": "2026-07-24"
+  },
+  "NY-A05164": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 14,
+    "play": "Codifies broker supervision duties; minor operational note.",
+    "updated": "2026-07-24"
+  },
+  "NY-S00072": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "lending"
+    ],
+    "urgency": 40,
+    "play": "Underwrite the Housing Access Voucher Program as a new stable rent stream for NY affordable operators.",
+    "updated": "2026-07-24"
+  },
+  "NY-S00733": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending",
+      "multifamily"
+    ],
+    "urgency": 42,
+    "play": "Swap costly mezzanine debt for the proposed state zero-/low-interest revolving construction loans on mixed-income deals.",
+    "updated": "2026-07-24"
+  },
+  "NY-S03397": {
+    "signal": "opportunity",
+    "types": [
+      "timing",
+      "incentive"
+    ],
+    "assets": [
+      "land",
+      "multifamily"
+    ],
+    "urgency": 46,
+    "play": "Partner with land-rich congregations to build affordable housing that overrides local zoning under the Faith-Based Act.",
+    "updated": "2026-07-24"
+  },
+  "NY-S06361": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 40,
+    "play": "Now law: void long-term residential service agreements exceeding two years from your NY listing playbook.",
+    "updated": "2026-07-24"
+  },
+  "NY-A06869": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "lending",
+      "multifamily"
+    ],
+    "urgency": 38,
+    "play": "Now law: ensure appraisal vendors follow the new anti-discrimination fair-housing rules on NY deals.",
+    "updated": "2026-07-24"
+  },
+  "NY-A05886": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 22,
+    "play": "Assembly version substituted by the enacted S6361; the two-year service-agreement ban is now law.",
+    "updated": "2026-07-24"
+  },
+  "NY-S07320": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "lending",
+      "multifamily"
+    ],
+    "urgency": 22,
+    "play": "Senate version substituted by the enacted A6869; appraiser anti-discrimination rules are now law.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB96": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 40,
+    "play": "Now law: factor the new designated-notice step into PA tax-sale acquisition timelines and diligence.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB907": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 26,
+    "play": "PA licensing overhaul adding home-inspector licensing; budget for the added inspection-side compliance.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB2645": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 28,
+    "play": "House version of the PA licensing overhaul; track which chamber's home-inspector regime prevails.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB1277": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "commercial",
+      "land",
+      "multifamily"
+    ],
+    "urgency": 48,
+    "play": "Map PA vacant buildings for conversion to capture the longer LERTA abatements this overhaul would allow.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [],
+      "eligibility": "deteriorated/deteriorated-area property and new construction in economically depressed communities",
+      "deadlines": [
+        "takes effect immediately",
+        "non-residential exemption schedule not to exceed 10 years",
+        "residential exemption schedule not to exceed 20 years",
+        "pre-existing ordinances remain in effect until one year after effective date",
+        "DCED to publish public registry within one year of effective date",
+        "registry updated biennially"
+      ],
+      "authority": "local taxing authority; Department of Community and Economic Development (public registry)",
+      "source": {
+        "url": "https://legiscan.com/PA/text/SB1277/id/3424692",
+        "type": "Introduced",
+        "date": "2026-04-23"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "PA-SB698": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "land",
+      "commercial"
+    ],
+    "urgency": 34,
+    "play": "Track PA surplus school-site dispositions as a redevelopment pipeline as acquisition rules change.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB2434": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 46,
+    "play": "Queue high-density PA multifamily projects to ride the proposed expedited municipal approval process.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB2180": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 30,
+    "play": "Track closed-prison site sales in PA as large-parcel redevelopment plays governed by this disposition bill.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB1152": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "lending"
+    ],
+    "urgency": 24,
+    "play": "Fair-housing enforcement update to PA Human Relations Act; keep leasing and lending practices compliant.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1446": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "commercial",
+      "land"
+    ],
+    "urgency": 26,
+    "play": "Note this stalled PA abatement for underutilized/mixed-use redevelopment; revive-watch for tax-exemption upside.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB2066": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 22,
+    "play": "Watch PA inheritance-tax repeal as a mild boost to estate-held property transfers.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1951": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 26,
+    "play": "Earlier version of the PA prison-site sale rules; track for large-parcel redevelopment supply.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB567": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 20,
+    "play": "Cyclical reassessment mandate could shift PA property-tax bases; monitor county-level exposure.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB815": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "land",
+      "commercial"
+    ],
+    "urgency": 24,
+    "play": "Track proposed realty-transfer-tax exclusions that could cut PA closing costs on qualifying transfers.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1103": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending"
+    ],
+    "urgency": 42,
+    "play": "Now law: revisit how your PA non-bank mortgage ops treat discount points under the updated Banking Code.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1119": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 16,
+    "play": "Disabled-veterans property-tax exemption tweak; negligible development impact.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB831": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 16,
+    "play": "Senate companion on veterans' tax exemption; negligible development impact.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB818": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "lending"
+    ],
+    "urgency": 55,
+    "play": "First-time-homebuyer savings accounts passed the PA House 183-20; market the tax-advantaged product to buyer pipelines.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "$150,000 maximum total contributions to an account",
+        "$5,000 max annual deduction (individual filer)",
+        "$10,000 max annual deduction (joint filers)",
+        "$50,000 aggregate principal deduction/exclusion cap within 10 years"
+      ],
+      "rates": [
+        "10% penalty on withdrawals used for non-eligible costs"
+      ],
+      "eligibility": "first-time homebuyer PA resident who has not owned a single-family residence",
+      "deadlines": [
+        "takes effect in 180 days",
+        "deduction/exclusion for no more than 10 years",
+        "ineligible use = sale/lease of residence within three years of settlement date"
+      ],
+      "authority": "Treasury Department of the Commonwealth (First-time Homebuyer Savings Account Bureau)",
+      "source": {
+        "url": "https://legiscan.com/PA/text/HB818/id/3231878",
+        "type": "Amended",
+        "date": "0000-00-00"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "PA-HB1459": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial",
+      "land"
+    ],
+    "urgency": 50,
+    "play": "Scout PA office-zoned parcels for by-right multifamily if this office-to-residential permitting bill advances.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [
+        "no more than one off-street residential parking space required per unit"
+      ],
+      "eligibility": "multiple-unit dwellings on parcels with municipal water/sewer will-serve letter in a commercial zone",
+      "deadlines": [
+        "takes effect in 180 days"
+      ],
+      "authority": "county or regional planning agency (petition review)",
+      "source": {
+        "url": "https://legiscan.com/PA/text/HB1459/id/3236647",
+        "type": "Introduced",
+        "date": "0000-00-00"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "PA-HB986": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 34,
+    "play": "Prohibits unfair PA realty service agreements; align your listing agreements and disclosures.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1394": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "land"
+    ],
+    "urgency": 20,
+    "play": "Duplicate PA inheritance-tax repeal vehicle; watch as a mild transfer tailwind.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1230": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [],
+    "urgency": 12,
+    "play": "Administrative appraiser-board change; no development impact.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB1174": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 24,
+    "play": "New HOA/condo meeting and notice rules; update association governance if you develop or manage PA communities.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB882": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 20,
+    "play": "Anti-harassment penalties on real estate and construction firms; tighten homeowner-outreach conduct.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB628": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 20,
+    "play": "Cease-and-desist solicitation zones in PA; adjust off-market acquisition outreach to respect them.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB264": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "commercial",
+      "land"
+    ],
+    "urgency": 40,
+    "play": "Model the expanded LERTA abatement schedule into PA redevelopment pro formas.",
+    "updated": "2026-07-24"
+  },
+  "PA-SB238": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "land",
+      "commercial"
+    ],
+    "urgency": 24,
+    "play": "Watch this PA realty-transfer-tax repeal for lower deal closing costs statewide.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB570": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 26,
+    "play": "Proposed inclusionary set-asides on new PA residential projects; price mandated affordable units into underwriting.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB600": {
+    "signal": "risk",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 24,
+    "play": "New PA regulation of housing wholesalers; check compliance if you assign or wholesale contracts.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB529": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 40,
+    "play": "Target PA municipalities likely to upzone for Smart Growth funds and pre-position housing sites there.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB465": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "commercial"
+    ],
+    "urgency": 18,
+    "play": "Commercial property-tax redistribution for schools; monitor for shifts in PA commercial tax burden.",
+    "updated": "2026-07-24"
+  },
+  "PA-HB214": {
+    "signal": "opportunity",
+    "types": [
+      "incentive"
+    ],
+    "assets": [
+      "land",
+      "commercial"
+    ],
+    "urgency": 22,
+    "play": "Another PA realty-transfer-tax exclusion vehicle; watch for reduced closing costs.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0001": {
+    "signal": "opportunity",
+    "types": [
+      "risk-cost",
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial",
+      "land"
+    ],
+    "urgency": 82,
+    "play": "Re-run FL hold-period and homestead economics for the enacted assessment-cap and exemption changes headed to voters.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [
+        "$500,000 cap on portability benefit for new homestead assessment",
+        "$150,000 assessed-valuation exemption beginning Jan 1, 2027",
+        "$250,000 assessed-valuation exemption beginning Jan 1, 2028",
+        "$25,000 school-district homestead exemption",
+        "$50,000 non-school homestead exemption",
+        "$50,000 additional homestead exemption for seniors 65+ with household income <= $20,000",
+        "additional senior exemption for property with just value < $250,000"
+      ],
+      "rates": [
+        "3% annual homestead assessment increase cap (or lesser of CPI)",
+        "10% annual non-homestead assessment cap before Jan 1, 2027",
+        "5% annual non-homestead assessment cap beginning Jan 1, 2027",
+        "20% cap on grandparent/parent living-quarters assessment reduction",
+        "ten mills county / municipal / school millage cap",
+        "two-thirds governing-body vote to reduce five-year requirement"
+      ],
+      "eligibility": "Homestead property owners; new residents establishing permanent residence on/after Jan 1, 2027 who were not FL residents as of Dec 31, 2026; seniors 65+ meeting income limits; disabled combat veterans 65+",
+      "deadlines": [
+        "New/increased exemptions begin January 1, 2027",
+        "Higher $250,000 exemption tier begins January 1, 2028",
+        "Non-homestead cap drops to 5% beginning January 1, 2027",
+        "Inflation adjustment of $25,000 amount begins January 1, 2029",
+        "Combat-disabled veteran discount application due to appraiser by March 1",
+        "County/municipality may reduce five-year requirement on/after January 1, 2030",
+        "Submitted to electors at next general or earlier special election"
+      ],
+      "authority": "County property appraiser; counties and municipalities (by ordinance); special districts (by referendum); Florida Legislature",
+      "source": {
+        "url": "https://legiscan.com/FL/text/H0001/id/3444471",
+        "type": "Enrolled",
+        "date": "2026-06-02"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "FL-S0002": {
+    "signal": "opportunity",
+    "types": [
+      "risk-cost",
+      "incentive"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 40,
+    "play": "Senate twin laid on table for the enacted House version; the property-tax cap changes still control FL underwriting.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0011": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 10,
+    "play": "Died this session; homestead-exemption revision is off the table for now.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0589": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 60,
+    "play": "Now law: skip the separate DEP septic permit and move FL homebuilding outside sewer areas straight through building permits.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [],
+      "eligibility": "Single-family residence owners/builders needing onsite sewage systems; lots >= 1/2 acre with >= 100-ft dimension; subdivisions with <= 4 lots per acre on public water",
+      "deadlines": [
+        "Construction permit valid 18 months from issuance, extendable one 90-day period",
+        "Repair permit valid 90 days from issuance",
+        "Commercial wastewater operating permit valid 1 year, renewed annually",
+        "Aerobic treatment unit operating permit valid 2 years, renewed every 2 years",
+        "Permit transfer amended application due within 60 days of ownership transfer",
+        "Engineer-designed system permit issued within 15 working days of complete application"
+      ],
+      "authority": "Florida Department of Environmental Protection; county health departments; variance review and advisory committee",
+      "source": {
+        "url": "https://legiscan.com/FL/text/H0589/id/3393878",
+        "type": "Enrolled",
+        "date": "2026-03-13"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "FL-H0679": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [],
+    "urgency": 10,
+    "play": "Trademark-registration modernization; no development relevance.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0110": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "land",
+      "multifamily"
+    ],
+    "urgency": 62,
+    "play": "Passed both chambers: revisit trust and estate ownership structures to secure FL homestead exemption eligibility.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [],
+      "eligibility": "Vendees in possession under recorded purchase contracts, life-estate holders, and lessees with 98-year+ leases (or 50-year+ leases pre-June 19, 1973) deemed to hold title for homestead exemption",
+      "deadlines": [
+        "Act takes effect upon becoming a law"
+      ],
+      "authority": null,
+      "source": {
+        "url": "https://legiscan.com/FL/text/S0110/id/3398437",
+        "type": "Enrolled",
+        "date": "2026-03-18"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "FL-H0203": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 10,
+    "play": "Died in Appropriations; full non-school homestead exemption is off the table.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0552": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "commercial"
+    ],
+    "urgency": 8,
+    "play": "Died in committee; tangible-personal-property tax ban did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0209": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died on second reading; insurance-linked homestead exemption did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0787": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in committee; county/school ad valorem repeal did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H1277": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "commercial"
+    ],
+    "urgency": 8,
+    "play": "Died in committee; tangible-personal-property tax ban did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0274": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in Finance and Tax; long-term-owner homestead benefit did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0205": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in committee; senior homestead exemption did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0607": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 10,
+    "play": "Died in committee; real estate licensing/CE deregulation did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0207": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in committee; 25% homestead exemption did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0201": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in committee; non-school homestead exemption did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0270": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in Finance and Tax; senior homestead exemption did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0450": {
+    "signal": "neutral",
+    "types": [
+      "incentive"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in Appropriations; disabled-veteran exemption transfer did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0657": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily"
+    ],
+    "urgency": 10,
+    "play": "Died in Rules; broad HOA/condo governance overhaul did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0381": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "lending"
+    ],
+    "urgency": 10,
+    "play": "Died in committee; mortgage-lender data-security mandates did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-H1545": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [],
+    "urgency": 8,
+    "play": "Died in committee; homestead repair/exemption tweak did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0540": {
+    "signal": "neutral",
+    "types": [
+      "risk-cost"
+    ],
+    "assets": [
+      "lending"
+    ],
+    "urgency": 10,
+    "play": "Died in Messages; mortgage-lender data-security mandates did not advance.",
+    "updated": "2026-07-24"
+  },
+  "FL-S0698": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 30,
+    "play": "Senate septic-permit companion folded into the enacted HB 589; the DEP permit bottleneck is already removed.",
+    "updated": "2026-07-24"
+  },
+  "FL-H0227": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "land",
+      "multifamily"
+    ],
+    "urgency": 26,
+    "play": "Leasehold-homestead bill folded into the enacted SB 110; use the new title rules for FL ownership structuring.",
+    "updated": "2026-07-24"
+  },
+  "NJ-S2680": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 34,
+    "play": "Watch NJ ADU legislation for by-right infill density on single-family lots.",
+    "updated": "2026-07-24"
+  },
+  "DC-B26-0661": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial",
+      "lending"
+    ],
+    "urgency": 56,
+    "play": "Comb the DC FY27 budget support act on final reading for housing subsidies and tax changes affecting your DC deals.",
+    "updated": "2026-07-24",
+    "mechanics": {
+      "dollars": [],
+      "rates": [],
+      "eligibility": null,
+      "deadlines": [
+        "official ANC websites to be provided by October 1, 2027"
+      ],
+      "authority": null,
+      "source": {
+        "url": "https://legiscan.com/DC/text/B26-0661/id/3449176",
+        "type": "Engrossed",
+        "date": "2026-06-09"
+      },
+      "extracted": "2026-07-24"
+    }
+  },
+  "DC-B26-0724": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial"
+    ],
+    "urgency": 40,
+    "play": "Track the DC FY27 emergency budget act for near-term housing and tax provisions.",
+    "updated": "2026-07-24"
+  },
+  "NJ-S1786": {
+    "signal": "opportunity",
+    "types": [
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 34,
+    "play": "Companion NJ ADU bill in Budget committee; watch for statewide accessory-unit density.",
+    "updated": "2026-07-24"
+  },
+  "ME-LD161": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "land"
+    ],
+    "urgency": 22,
+    "play": "Now law but study-only: watch the Maine subdivision-law modernization working group for future entitlement changes.",
+    "updated": "2026-07-24"
+  },
+  "HI-SB2068": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "land",
+      "multifamily"
+    ],
+    "urgency": 16,
+    "play": "Affordable-housing land-inventory study with a distant effective date; low near-term relevance.",
+    "updated": "2026-07-24"
+  },
+  "DC-B26-0265": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "risk-cost"
+    ],
+    "assets": [
+      "multifamily",
+      "commercial"
+    ],
+    "urgency": 44,
+    "play": "Now law: mine the enacted DC FY26 budget support act for active housing incentives and tax provisions.",
+    "updated": "2026-07-24"
+  },
+  "UT-HB0068": {
+    "signal": "opportunity",
+    "types": [
+      "incentive",
+      "timing"
+    ],
+    "assets": [
+      "multifamily",
+      "land"
+    ],
+    "urgency": 45,
+    "play": "Now law: check Utah's housing and community development amendments for financing and land programs on your projects.",
+    "updated": "2026-07-24"
+  },
+  "VA-HB368": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "land"
+    ],
+    "urgency": 12,
+    "play": "Tribal-recognition definitions bill; negligible development impact.",
+    "updated": "2026-07-24"
+  },
+  "VA-SB356": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [
+      "land"
+    ],
+    "urgency": 12,
+    "play": "Senate tribal-recognition companion; negligible development impact.",
+    "updated": "2026-07-24"
+  },
+  "MA-H5518": {
+    "signal": "neutral",
+    "types": [],
+    "assets": [],
+    "urgency": 8,
+    "play": "Placeholder/administrative MA entry; no actionable content.",
+    "updated": "2026-07-24"
+  }
+}

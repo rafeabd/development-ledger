@@ -11,6 +11,23 @@ from the LegiScan API by `.github/workflows/refresh-data.yml`.
 - `public/data/ai-summaries.json` — plain-English summaries, keyed by
   `<JURISDICTION>-<BILLNUMBER with spaces/dots stripped>` (e.g. `PA-HB818`, `US-HB9540`).
   Maintained by the scheduled Claude task.
+- `public/data/opportunities.json` — the money layer: same key as `ai-summaries.json`,
+  one entry per bill: `{ signal, types, assets, urgency, play, updated }`.
+  - `signal`: `opportunity` (creates value/capital for a developer or lender) | `risk`
+    (raises cost or constrains) | `neutral` (study, minor, not actionable).
+  - `types`: subset of `incentive` (credits/grants/subsidies/TIF/financing), `timing`
+    (zoning/density/permitting/deregulation), `risk-cost` (mandates/fees/rent control/disclosure).
+  - `assets`: subset of `multifamily`, `commercial`, `lending`, `land`.
+  - `urgency`: integer 0–100 (status momentum + how soon to act + dollar magnitude).
+    80–100 signed/passed with a near action window; 55–79 actively moving; 30–54 early but
+    consequential; 0–29 stalled/minor/neutral. Pure `neutral` ≤ 25.
+  - `play`: one operator-facing sentence — the move to make, not a description.
+  - `mechanics` (optional): hard specifics extracted from the bill's **full text** for the
+    highest-urgency bills — `{ dollars[], rates[], eligibility, deadlines[], authority, source, extracted }`.
+    Every figure must be quoted literally from the bill text; never inferred. Empty arrays / null
+    fields are correct when the text doesn't state them. `source` cites the LegiScan text doc.
+  - Maintained by the scheduled Claude task. Drives the "The Play" ranked feed + card chips
+    + signal/asset filters + the per-card "Money mechanics" block on the site.
 - `public/data/briefing.json` — the daily editorial briefing shown at the top of the page:
   `{ date, headline, paragraphs: [] }`. Maintained by the scheduled Claude task.
 - `data/legiscan-cache.json` — change-hash cache; committed so daily runs stay cheap.
@@ -33,6 +50,10 @@ The scheduled task should, each run:
 ## Local commands
 
 - `node scripts/fetch-bills.mjs` — refresh bill data (needs `LEGISCAN_API_KEY` in env or `.env`).
+- `node scripts/fetch-bill-text.mjs` — fetch + focus the full text of the highest-urgency
+  opportunity/risk bills into `.billtext/` (gitignored) for the deep-extract step. Requires
+  `LEGISCAN_API_KEY` and `pdftotext` (poppler) on PATH for PDF bill texts. `MIN_URGENCY=40`
+  env var widens the set beyond the default urgency ≥ 48.
 - `npm run build && npm run preview` — build and serve the production bundle.
 
 ## Never

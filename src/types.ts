@@ -33,6 +33,41 @@ export interface AiSummaries {
   [key: string]: { summary: string; updated: string }
 }
 
+export type OpportunitySignal = 'opportunity' | 'risk' | 'neutral'
+export type OpportunityType = 'incentive' | 'timing' | 'risk-cost'
+export type AssetClass = 'multifamily' | 'commercial' | 'lending' | 'land'
+
+export interface MechanicsSource {
+  url: string
+  type: string
+  date: string
+}
+
+/** Structured "money mechanics" extracted from a bill's full text. */
+export interface Mechanics {
+  dollars: string[]
+  rates: string[]
+  eligibility: string | null
+  deadlines: string[]
+  authority: string | null
+  source: MechanicsSource
+  extracted: string
+}
+
+export interface Opportunity {
+  signal: OpportunitySignal
+  types: OpportunityType[]
+  assets: AssetClass[]
+  urgency: number
+  play: string
+  updated: string
+  mechanics?: Mechanics
+}
+
+export interface Opportunities {
+  [key: string]: Opportunity
+}
+
 export interface Briefing {
   date: string
   headline: string

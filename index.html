@@ -36,6 +36,8 @@
         <div class="briefing-body"></div>
       </section>
 
+      <div id="play-feed-host"></div>
+
       <section class="controls" aria-label="Filters">
         <input
           id="search"
@@ -46,6 +48,19 @@
         />
         <select id="status-filter" class="control-select" aria-label="Filter by status">
           <option value="">All statuses</option>
+        </select>
+        <select id="signal-filter" class="control-select" aria-label="Filter by opportunity signal">
+          <option value="">All signals</option>
+          <option value="opportunity">Opportunities</option>
+          <option value="risk">Risks</option>
+          <option value="neutral">Neutral</option>
+        </select>
+        <select id="asset-filter" class="control-select" aria-label="Filter by asset class">
+          <option value="">All assets</option>
+          <option value="multifamily">Multifamily</option>
+          <option value="commercial">Commercial</option>
+          <option value="lending">Lending</option>
+          <option value="land">Land</option>
         </select>
         <span id="result-count" class="control-count" role="status"></span>
       </section>

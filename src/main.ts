@@ -1,7 +1,13 @@
 import './styles/tokens.css'
 import './styles/global.css'
 import { loadAll } from './data'
-import { formatDate, renderBriefing, renderNav, renderSection } from './render'
+import {
+  formatDate,
+  renderBriefing,
+  renderNav,
+  renderPlayFeed,
+  renderSection,
+} from './render'
 
 const SECTION_META = [
   { code: 'US', label: 'Federal' },
@@ -13,13 +19,18 @@ const SECTION_META = [
 function applyFilters() {
   const query = (document.getElementById('search') as HTMLInputElement).value.trim().toLowerCase()
   const status = (document.getElementById('status-filter') as HTMLSelectElement).value
+  const signal = (document.getElementById('signal-filter') as HTMLSelectElement).value
+  const asset = (document.getElementById('asset-filter') as HTMLSelectElement).value
   let visible = 0
   let total = 0
   for (const card of document.querySelectorAll<HTMLElement>('.bill-card')) {
     total += 1
+    const assets = (card.dataset.assets ?? '').split(' ').filter(Boolean)
     const matches =
       (!query || (card.dataset.search ?? '').includes(query)) &&
-      (!status || card.dataset.status === status)
+      (!status || card.dataset.status === status) &&
+      (!signal || card.dataset.signal === signal) &&
+      (!asset || assets.includes(asset))
     card.hidden = !matches
     if (matches) visible += 1
   }
@@ -39,13 +50,20 @@ async function init() {
     year: 'numeric',
   }).format(new Date())
 
-  const { bills, aiSummaries, briefing } = await loadAll()
+  const { bills, aiSummaries, opportunities, briefing } = await loadAll()
 
   if (briefing) renderBriefing(briefing)
 
+  const allBills = [...bills.jurisdictions.flatMap((j) => j.bills), ...bills.elsewhere]
+  const playFeed = renderPlayFeed(allBills, opportunities)
+  const navEntries: { slug: string; label: string }[] = []
+  if (playFeed) {
+    document.getElementById('play-feed-host')!.append(playFeed)
+    navEntries.push({ slug: 'plays', label: 'The Play' })
+  }
+
   const sectionsHost = document.getElementById('sections')!
   const navHost = document.querySelector<HTMLElement>('.section-nav')!
-  const navEntries: { slug: string; label: string }[] = []
 
   let index = 1
   for (const meta of SECTION_META) {
@@ -53,7 +71,7 @@ async function init() {
     if (!jurisdiction || jurisdiction.bills.length === 0) continue
     const slug = meta.label.toLowerCase().replace(/\s+/g, '-')
     sectionsHost.append(
-      renderSection(index, meta.label, slug, jurisdiction.bills, aiSummaries),
+      renderSection(index, meta.label, slug, jurisdiction.bills, aiSummaries, opportunities),
     )
     navEntries.push({ slug, label: meta.label })
     index += 1
@@ -67,6 +85,7 @@ async function init() {
         'elsewhere',
         bills.elsewhere,
         aiSummaries,
+        opportunities,
         'Notable real-estate bills surfacing in other statehouses, found by nationwide scan.',
       ),
     )
@@ -90,6 +109,8 @@ async function init() {
 
   document.getElementById('search')!.addEventListener('input', applyFilters)
   statusSelect.addEventListener('change', applyFilters)
+  document.getElementById('signal-filter')!.addEventListener('change', applyFilters)
+  document.getElementById('asset-filter')!.addEventListener('change', applyFilters)
   applyFilters()
 
   document.getElementById('generated-at')!.textContent =
