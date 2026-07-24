@@ -1,4 +1,4 @@
-import type { AiSummaries, BillsPayload, Briefing, Opportunities } from './types'
+import type { AiSummaries, BillsPayload, Briefing, Opportunities, Signals } from './types'
 
 const base = import.meta.env.BASE_URL
 
@@ -17,12 +17,14 @@ export async function loadAll(): Promise<{
   aiSummaries: AiSummaries
   opportunities: Opportunities
   briefing: Briefing | null
+  signals: Signals | null
 }> {
-  const [bills, aiSummaries, opportunities, briefing] = await Promise.all([
+  const [bills, aiSummaries, opportunities, briefing, signals] = await Promise.all([
     fetchJson<BillsPayload>('data/bills.json'),
     fetchJson<AiSummaries>('data/ai-summaries.json'),
     fetchJson<Opportunities>('data/opportunities.json'),
     fetchJson<Briefing>('data/briefing.json'),
+    fetchJson<Signals>('data/signals.json'),
   ])
   if (!bills) throw new Error('Could not load bill data.')
   return {
@@ -30,5 +32,6 @@ export async function loadAll(): Promise<{
     aiSummaries: aiSummaries ?? {},
     opportunities: opportunities ?? {},
     briefing,
+    signals,
   }
 }

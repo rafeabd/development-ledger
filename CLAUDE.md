@@ -30,6 +30,12 @@ from the LegiScan API by `.github/workflows/refresh-data.yml`.
     + signal/asset filters + the per-card "Money mechanics" block on the site.
 - `public/data/briefing.json` — the daily editorial briefing shown at the top of the page:
   `{ date, headline, paragraphs: [] }`. Maintained by the scheduled Claude task.
+- `public/data/signals.json` — the interpretation layer: `{ generatedAt, regulations[], news[] }`.
+  - `regulations`: Federal Register rules/proposed rules/notices from housing & lending agencies
+    (HUD, Treasury/IRS, FHFA, USDA, CFPB), each `{ title, type, agencies, date, url, abstract, topics }`.
+  - `news`: policy/trade headlines from Google News RSS, each `{ title, source, date, url, query }`.
+  - Machine-written by `scripts/fetch-feeds.mjs` (free, keyless). Refreshed by the daily Action.
+    Drives the "Regulatory Radar" section. State QAPs have no feed and are not automated here.
 - `data/legiscan-cache.json` — change-hash cache; committed so daily runs stay cheap.
 
 ## Daily scheduled task (Claude)
@@ -50,6 +56,8 @@ The scheduled task should, each run:
 ## Local commands
 
 - `node scripts/fetch-bills.mjs` — refresh bill data (needs `LEGISCAN_API_KEY` in env or `.env`).
+- `node scripts/fetch-feeds.mjs` — refresh the Federal Register + news feeds into `signals.json`
+  (no API key needed).
 - `node scripts/fetch-bill-text.mjs` — fetch + focus the full text of the highest-urgency
   opportunity/risk bills into `.billtext/` (gitignored) for the deep-extract step. Requires
   `LEGISCAN_API_KEY` and `pdftotext` (poppler) on PATH for PDF bill texts. `MIN_URGENCY=40`

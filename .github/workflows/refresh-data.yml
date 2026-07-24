@@ -25,7 +25,6 @@ jobs:
           fi
 
       - uses: actions/setup-node@v4
-        if: steps.keycheck.outputs.present == 'true'
         with:
           node-version: 20
 
@@ -35,15 +34,18 @@ jobs:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
         run: node scripts/fetch-bills.mjs
 
+      - name: Fetch regulatory + news feeds
+        continue-on-error: true
+        run: node scripts/fetch-feeds.mjs
+
       - name: Commit and push if changed
-        if: steps.keycheck.outputs.present == 'true'
         run: |
           git config user.name "ledger-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/data/bills.json data/legiscan-cache.json
+          git add public/data/bills.json data/legiscan-cache.json public/data/signals.json
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            git commit -m "chore: daily bill data refresh"
+            git commit -m "chore: daily data refresh (bills + feeds)"
             git push
           fi

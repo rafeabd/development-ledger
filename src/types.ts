@@ -74,6 +74,33 @@ export interface Briefing {
   paragraphs: string[]
 }
 
+/** A rule, proposed rule, or notice from the Federal Register. */
+export interface RegItem {
+  title: string
+  type: string
+  agencies: string[]
+  date: string | null
+  url: string
+  abstract: string | null
+  topics: string[]
+}
+
+/** A news headline from the policy/trade press. */
+export interface NewsItem {
+  title: string
+  source: string
+  date: string | null
+  url: string
+  query: string
+}
+
+/** The "interpretation layer" feeds: regulations + news. */
+export interface Signals {
+  generatedAt: string
+  regulations: RegItem[]
+  news: NewsItem[]
+}
+
 /** Stable key used by ai-summaries.json: e.g. "PA-HB818" */
 export function billKey(bill: Bill): string {
   return `${bill.jurisdiction}-${bill.number.replace(/[\s.]/g, '')}`

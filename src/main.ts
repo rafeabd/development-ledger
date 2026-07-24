@@ -7,6 +7,7 @@ import {
   renderNav,
   renderPlayFeed,
   renderSection,
+  renderSignals,
 } from './render'
 
 const SECTION_META = [
@@ -50,7 +51,7 @@ async function init() {
     year: 'numeric',
   }).format(new Date())
 
-  const { bills, aiSummaries, opportunities, briefing } = await loadAll()
+  const { bills, aiSummaries, opportunities, briefing, signals } = await loadAll()
 
   if (briefing) renderBriefing(briefing)
 
@@ -90,6 +91,14 @@ async function init() {
       ),
     )
     navEntries.push({ slug: 'elsewhere', label: 'Elsewhere' })
+  }
+
+  if (signals) {
+    const signalsEl = renderSignals(signals)
+    if (signalsEl) {
+      sectionsHost.append(signalsEl)
+      navEntries.push({ slug: 'radar', label: 'Radar' })
+    }
   }
 
   renderNav(navHost, navEntries)

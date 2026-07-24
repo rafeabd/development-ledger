@@ -5,10 +5,13 @@ import type {
   Briefing,
   Jurisdiction,
   Mechanics,
+  NewsItem,
   Opportunities,
   Opportunity,
   OpportunitySignal,
   OpportunityType,
+  RegItem,
+  Signals,
 } from './types'
 import { billKey } from './types'
 
@@ -303,6 +306,92 @@ export function renderPlayFeed(bills: Bill[], opps: Opportunities): HTMLElement 
   for (const { bill, opp } of top) list.append(renderPlayRow(bill, opp))
   section.append(list)
 
+  return section
+}
+
+function externalLink(href: string, className: string, text: string): HTMLAnchorElement {
+  const a = el('a', className, text)
+  a.href = href
+  a.target = '_blank'
+  a.rel = 'noopener'
+  return a
+}
+
+function renderRegItem(item: RegItem): HTMLElement {
+  const row = el('article', 'feed-item')
+  const meta = el('p', 'feed-meta')
+  meta.append(el('span', 'feed-kind', item.type))
+  if (item.agencies.length) meta.append(el('span', 'feed-src', item.agencies.join(' · ')))
+  if (item.date) meta.append(el('span', 'feed-date', formatDate(item.date)))
+  row.append(meta)
+  row.append(externalLink(item.url, 'feed-title', item.title))
+  if (item.abstract) row.append(el('p', 'feed-abstract', item.abstract))
+  return row
+}
+
+function renderNewsItem(item: NewsItem): HTMLElement {
+  const row = el('article', 'feed-item')
+  const meta = el('p', 'feed-meta')
+  meta.append(el('span', 'feed-src', item.source))
+  if (item.date) meta.append(el('span', 'feed-date', formatDate(item.date)))
+  row.append(meta)
+  row.append(externalLink(item.url, 'feed-title', item.title))
+  return row
+}
+
+function feedColumn(title: string, note: string, items: HTMLElement[]): HTMLElement {
+  const col = el('div', 'feed-column')
+  const head = el('div', 'feed-column-head')
+  head.append(el('h3', 'feed-column-title', title))
+  head.append(el('span', 'feed-column-count', `${items.length}`))
+  col.append(head)
+  col.append(el('p', 'feed-column-note', note))
+  const list = el('div', 'feed-list')
+  for (const item of items) list.append(item)
+  col.append(list)
+  return col
+}
+
+/** The interpretation layer: Federal Register actions + policy/trade news. */
+export function renderSignals(signals: Signals): HTMLElement | null {
+  const hasReg = signals.regulations.length > 0
+  const hasNews = signals.news.length > 0
+  if (!hasReg && !hasNews) return null
+
+  const section = el('section', 'signals')
+  section.id = 'radar'
+  section.setAttribute('aria-labelledby', 'radar-heading')
+
+  const heading = el('h2', 'jurisdiction-heading')
+  heading.id = 'radar-heading'
+  heading.append(el('span', 'jurisdiction-index', '—'))
+  heading.append(el('span', 'jurisdiction-name', 'Regulatory Radar'))
+  heading.append(el('span', 'jurisdiction-count', 'rules & news'))
+  section.append(heading)
+  section.append(
+    el(
+      'p',
+      'jurisdiction-note',
+      'The interpretation layer above the bills — where agencies define the mechanics and the market reacts. Every item links to its source.',
+    ),
+  )
+
+  const columns = el('div', 'feed-columns')
+  if (hasReg) {
+    columns.append(
+      feedColumn(
+        'Federal Register',
+        'Rules, proposed rules & notices from HUD, Treasury/IRS, FHFA, USDA, CFPB.',
+        signals.regulations.map(renderRegItem),
+      ),
+    )
+  }
+  if (hasNews) {
+    columns.append(
+      feedColumn('In the news', 'Policy & trade headlines across the sector.', signals.news.map(renderNewsItem)),
+    )
+  }
+  section.append(columns)
   return section
 }
 
