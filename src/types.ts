@@ -92,6 +92,8 @@ export interface NewsItem {
   date: string | null
   url: string
   query: string
+  /** 'tight' = high-signal incentive/legislation query; 'broad' = wider watch. */
+  tier: 'tight' | 'broad'
 }
 
 /** The "interpretation layer" feeds: regulations + news. */

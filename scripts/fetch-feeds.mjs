@@ -44,10 +44,23 @@ const FR_AGENCIES = new Set([
 ])
 const REG_LIMIT = 32
 
-const NEWS_QUERIES = [
+// High-signal: specific incentive / legislation / deal-mechanic queries.
+const NEWS_TIGHT = [
+  '"low-income housing tax credit"',
+  '"opportunity zone" (development OR housing OR investment)',
+  '"office to residential" conversion',
+  '"housing tax credit" legislation',
+  '"property tax abatement" development',
+  '"tax increment financing" development',
+  '"density bonus" housing',
+  '"affordable housing" (tax credit OR bill OR legislation)',
+  '"HUD" (rule OR funding OR program) housing',
+  '"construction loan" OR "development financing" commercial real estate',
+]
+// Wider watch: broad real-estate-policy coverage (relevance-filtered).
+const NEWS_BROAD = [
   'real estate legislation',
   'housing bill',
-  '"low-income housing tax credit"',
   'opportunity zone real estate',
   'zoning reform',
   'rent regulation',
@@ -58,7 +71,11 @@ const NEWS_QUERIES = [
   'mortgage lending rule',
 ]
 const NEWS_PER_QUERY = 6
-const NEWS_LIMIT = 44
+const TIGHT_LIMIT = 20
+const BROAD_LIMIT = 26
+// A headline must touch one of these to survive the wider (untrusted) tier.
+const NEWS_RELEVANT =
+  /\b(housing|real ?estate|realty|mortgage|rent|renter|tenant|landlord|zoning|apartment|multifamily|develop|construct|homebuild|affordable|LIHTC|tax credit|opportunity zone|property tax|abatement|foreclos|HUD|FHA|Fannie|Freddie|land use|permit|condo|commercial real estate|warehouse|industrial|lending|loan|REIT)\b/i
 
 async function fetchText(url) {
   const res = await fetch(url, { headers: { 'User-Agent': 'development-ledger/1.0' } })
@@ -132,9 +149,9 @@ function tag(block, name) {
   return m ? decodeEntities(m[1]) : null
 }
 
-async function collectNews() {
+async function collectNews(queries, tier, { guard } = { guard: false }) {
   const byUrl = new Map()
-  for (const query of NEWS_QUERIES) {
+  for (const query of queries) {
     const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`
     try {
       const xml = await fetchText(url)
@@ -152,29 +169,35 @@ async function collectNews() {
           title = rawTitle.replace(new RegExp(`\\s*-\\s*${esc}\\s*$`), '').trim()
         }
         if (title === rawTitle) title = rawTitle.replace(/\s*-\s*[^-]*$/, '').trim() || rawTitle
+        if (guard && !NEWS_RELEVANT.test(title)) continue // drop off-topic wider-tier items
         // Keep just the publisher head ("ABC News" from "ABC News - Breaking News…").
         const source = (rawSource || rawTitle).split(/\s+[-–|:]\s+/)[0].slice(0, 40)
         const pub = tag(block, 'pubDate')
         const date = pub ? new Date(pub).toISOString().slice(0, 10) : null
         if (byUrl.has(link)) continue
-        byUrl.set(link, { title, source, date, url: link, query })
+        byUrl.set(link, { title, source, date, url: link, query, tier })
       }
     } catch (err) {
       console.error(`  News "${query}": ${err.message}`)
     }
   }
-  return [...byUrl.values()]
-    .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
-    .slice(0, NEWS_LIMIT)
+  return [...byUrl.values()].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
 }
 
 async function main() {
   console.error('Fetching Federal Register…')
   const regulations = await collectRegulations()
   console.error(`  ${regulations.length} regulatory items`)
-  console.error('Fetching news…')
-  const news = await collectNews()
-  console.error(`  ${news.length} news items`)
+  console.error('Fetching news (high signal)…')
+  const tight = (await collectNews(NEWS_TIGHT, 'tight', { guard: true })).slice(0, TIGHT_LIMIT)
+  console.error(`  ${tight.length} high-signal items`)
+  console.error('Fetching news (wider watch)…')
+  const tightUrls = new Set(tight.map((n) => n.url))
+  const broad = (await collectNews(NEWS_BROAD, 'broad', { guard: true }))
+    .filter((n) => !tightUrls.has(n.url))
+    .slice(0, BROAD_LIMIT)
+  console.error(`  ${broad.length} wider-watch items`)
+  const news = [...tight, ...broad]
 
   writeFileSync(
     OUTPUT_PATH,

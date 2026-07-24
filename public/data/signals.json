@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T12:37:47.268Z",
+  "generatedAt": "2026-07-24T13:15:55.303Z",
   "regulations": [
     {
       "title": "Questions and Answers Regarding the Affordable Housing Program and Questions and Answers Regarding the Affordable Housing Program-Part 2",
@@ -342,312 +342,372 @@
   ],
   "news": [
     {
-      "title": "House passes bill that would ban members from buying stock",
-      "source": "ABC News",
+      "title": "Pennsylvania Keystone Opportunity Zone",
+      "source": "FOX 8 TV",
       "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY0o3ZVd2WnBfRTU3d3dsZnRuUzU1OTY3NmZBNHR0a3p4eG5SYUdjYWQ4M0t2V3EzNnVhYktXTUxmQWlrMlBKVTBFblV4ZXpqQjdaanJhTzNPeXpVZ0M4ZHBxZkJwTkxyZUQ1QjJsV2llcWlQSTZzbnVvbWl0SUFqUWdFMDAtNDB5Z0dIV3Q4LWI0c2xX0gGaAUFVX3lxTE5peWVUMk9WbWdNX2Jqb3NBcnZ0TnlTclhpcW1DMk8wX29WNmh1WmVnMlRoblBfTHoyaUlWbkRMcm5aZmI2OU9iQk9IS3Z1OEhaa05xdUJSUmNFWHFONDE5a2M4a3NVOHNOR1hzTUJMWUpEVXNZLWNQT2ZoM0hpSEQzUmZKaTliMF84bGltYV9nOE80QWZPZ0c5UXc?oc=5",
-      "query": "housing bill"
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IWHFLQmhPRC1ZRmxVVmllbmJ1bW0yV1BtWDQtWVFDeDc5QnRRSnBfZ3dwbnUwWWJDLVF5aGFNbEdtR1Q0YjF1dU1fb0QwVTlKSjlIcHRUdVlOSXdILWtjT1BVUTBnUy1ma3ZVVnpMNWhpc1Exa2JaSUVGOA?oc=5",
+      "query": "\"opportunity zone\" (development OR housing OR investment)",
+      "tier": "tight"
     },
     {
-      "title": "Red Bank Moves Forward on Rent Rules, Graffiti Remediation, and Long‑Term Energy Strategy",
-      "source": "TAPinto",
+      "title": "ND fair housing group braces for layoffs amid HUD funding delay",
+      "source": "Public News Service",
       "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPLXVGM2xJQlUxdG52TC1NWjVkS2NjcWZFempMb0ZIcVAtQ0pHSGpsdExucXNMV2hmVkllVDR3WERsS2NnekVRaVI0cEpZbDRqdzZfdlJ2ZmFPNkZXM1RrV05Za3hvNjFpQ1doYThYVWlUcHVPbVVaRUpneEo5TWtnY254Wl9vOUszZ29VMm5ka0xsenNaN3hwNjhaTjFiUlF5WU5xZ1VoUWNRTGFDZW1KVlNacU5pV3NRbmU2T3J1TXpZdnRBTHZzVFZSS0JIVUZoeHBKbUU4eHJ3MWhQRi13bnpYVEd2VzJyZXBz?oc=5",
-      "query": "rent regulation"
-    },
-    {
-      "title": "If food prices had risen like rents since 1988, a block of cheese would cost £20",
-      "source": "Big Issue",
-      "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNlhzRkdyX2xtU1cyOHlqZmZlZERDYTEtbmxqOEVTMlhOQm9wX1JPVjJWSHVXRmU1RUFKT1Y2YXc0YkUzUWtqSXJhRGo0bjJzekhWN05CQlUyY3VDTlR2cWc2eE80VVBobE5UWlJxSmtqTzM1bEx3VVZhWmI4a2lKMjdB?oc=5",
-      "query": "rent regulation"
-    },
-    {
-      "title": "S3 Capital Surpasses $10B In Construction Loan Originations",
-      "source": "National Mortgage Professional",
-      "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdlBCWGJSd1ZBWVBZTFM5ckpoZVZNSlpyUVNNdFlZcHUzTDVQblZscUFqeDVlcUJzS3hMR2NLdnc1OGl6MkQ4eE1SY1FUeDdBQ3A4cmhhUW80Wno1UGRGaGVCUTVUcENiSS1MUUhUeWdaU2s2UUMybFhUc0NfWjd0enJWVVZlU2cyREpqVWw2VERpaXRrUnVmckRQVzdBSWstazhN?oc=5",
-      "query": "construction financing"
-    },
-    {
-      "title": "Questions every construction company should ask its bank in 2026",
-      "source": "The Business Journals",
-      "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU1BTMHlGaHJPWHFfaFJQcVJUaWVWWUxmT1Y1Wkl4NnVXd3k3YkZEYWpJUHRNeWhMVkpaNnhSQ1U1VmJIcFZPVU1QT0haTnZfdGtybzVUN2dPaTVIdmZYY1o4WlN0ZGc4Q3pwbkFpZlNnVlUwY3I5dm95UXJ4YklTWFlsclRRay1Zbng1U0JKc0puN0E0SWZOQUZCcw?oc=5",
-      "query": "construction financing"
-    },
-    {
-      "title": "Raleigh Housing Authority seeks Cary approval to buy 340-unit apartment complex",
-      "source": "WRAL",
-      "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVHgxV0ZEOWs5aW9hWmVocG01SEVKamxOaXpyRFVYbmV2MXRhUWdCZ0tzeV9fbTdyZVU5Q283MGJBcEpyR1RZSXBFTHgydVZXN29Yd0YzMHJyVGhGUWxnckNycTI0dDgybUhkeXhFZWRUZWxxQkdRakprbkdzdU1fVHBTVFg1SmZidlY1ZDJhSFVUdE1jU19EUkgzYjg?oc=5",
-      "query": "property tax exemption housing"
-    },
-    {
-      "title": "Inside The Stella: Converting a downtown St. Paul office tower into homes",
-      "source": "The Business Journals",
-      "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVV9xZklQNlhrRThqS2lyNF9WOGh3SHN5Vk9UZUZHRlhheDF3bGszbkFISXJaSWpWeW1zTGVwb3ZNb04xR1BBNVFRa1lWZkZKZUNwdGM5MmNjcFAxNjM5ZDN3Z1FUdTYtaDlpOGxhYWw5NWV3QmxwSi10amZRUU1vcHlDaXg1YmozMXdiZEZaQUlLV3dkaXVsc0ZidlVvX1E?oc=5",
-      "query": "office to residential conversion"
-    },
-    {
-      "title": "Jayapal, Markey Introduce Updated Legislation to Set Strong Guardrails for Private Equity in Healthcare",
-      "source": "House.gov",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ2lFUEtjYWlRSHVNR0Zfd29BMG1JWmh3a09icHdtNWxhNXJycFR3a2hwazVjZFdkZU04MkdaRDJKSEtyUFlDS2xYUms4eFcwODVwZ1lFeTc2Tkdwcllxd1UxOVhHMURLV1lvMWwzdVJ5cFRmc05qaHFPcDcya1RjczJGaHFIOVBKSW9ZMjFXWDNOY0xjME96c0RramVDUTJjZ2JoQ3V0SGZhUERGWUdrT3BvTDBiNFNTdDJtdm1TVmtaOU9iLUdGSkl4V3FZSU9UdUVhRzRnYw?oc=5",
-      "query": "real estate legislation"
-    },
-    {
-      "title": "Criticism of Employer-Sponsored Housing Legislation Persists",
-      "source": "The East Hampton Star",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGRrVEZuVzJ5eEpvOVNyVjBvMnEwbUdleWx0bmx2c21jWVEtZ1BJN05mSkdnZEdJTlVIcG5YOXhCeDMxWDhHMFliQUhqM2RkWmpJT3pSSnVxYnd5YWV6bXdoX3EzNTdjSnNEVFFZd1Myd0gxWVZ2MkZGNHNSQWJrd1FJX0VhS2Y1QzVIVTNZU1dTd3Z2RnRiY3JIbW13QzFLMFYxdTVvZ1JxQkN4?oc=5",
-      "query": "real estate legislation"
-    },
-    {
-      "title": "What will a rebuilt Altadena look like? Residents push a state bill that would limit density",
-      "source": "LAist",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbVFLM1FUWVVRby1rUWlpS0wtd1VSeTJFLUxuaVl0XzRsdm9GNThMX3RYTWlnV1VJeXRHVWpMS2JVVWMzRGl1eVEyMzR4R2lVSGYyNzB4Wko5Y05PUXhqcjhMRTNQcGl1SVZoRnJ2Wldjc3RZbjF4MUlXdEJ6bWZCWEtmQWhaSHFMNUtHNGdYQ3JBRTE3U3VQMUE0Y2ludw?oc=5",
-      "query": "housing bill"
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMlZTcmJUMWNPNWhGdExQQTVBQTdPR1JlOThhZVkyblI0MjBib1h4aXhBSk5IZkVLdXlLYXBHR0c2bE43OEpQaGFIRDIxV2FRU05FMTQzdEw5b3RmdVFPYmJpZW85S3RXVWRuUU8xcWZKWWdkc3JfajY3bVFQRXBrcGJsUENoc3NjTWE1ZF9TSktKNVVjR3ZpcThON1pTLWZDenV3dnhQTEphTGVkbVQ1OTlGcmNhNEhhVjhiTkFsblR1S0xDaFZxNjlwdHRGcVNsZnQ0OVFpRQ?oc=5",
+      "query": "\"HUD\" (rule OR funding OR program) housing",
+      "tier": "tight"
     },
     {
       "title": "Could New Financing Models for Mixed-Income Housing Improve Housing Supply and Affordability?",
       "source": "Urban Institute",
       "date": "2026-07-23",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUUx4dlFvWXAxS0YwV09reXllTE5rcmFSWDRTTV9yS003bGhWeDViRzJybmdNQVZ0TmRfN0FTQVlMZXc2c2daMEpVSnRRRjE3WXlXcHN4MWZubFVhbC1FMkxXZ2lsM1pJQUJWbFJkNmdYMWhOQVE3RVlwbWYycGhWemFFdXpaQUltV3NzTEoxRkxweFVEWkh6YUNmcl9aMjl1d3FpbWg4eWxjOHVBMHpJaVBDRHFWUUJ1RVQ0b3VR?oc=5",
-      "query": "\"low-income housing tax credit\""
+      "query": "\"low-income housing tax credit\"",
+      "tier": "tight"
     },
     {
       "title": "THDA and Jackson Housing Authority celebrate grand opening of BlueCreek Apartments",
       "source": "wbbjtv.com",
       "date": "2026-07-23",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTkoxTF9fbG9qd0h1NUNvNXROaHFtVVctLWN4UGRBZTNrd21XNlFqazNraW5iYlBBNFYwZi10RHBaeVBmVTdoSUpVaXh5M1lGSVpuVWZtTDE1WUhsMndpYmFwXzA1SHVPa3ZSMUx3UWV5SUhTcVJrUnBpZWlQcXdwT3drdHpFaU1Oem1ESWRCSG11OFRsMW5Oa0pUdmU5SW1SR0J2MFM1YkFjbTFwM0Vr0gHDAUFVX3lxTE1CVFZsWnlYX2FZbEd6amU0em96MWxNcjZqTEdEcWZrVUtqVFZKVGlOVldFeHdQNE1lTmdxOFJNc2xrb2wwTWpBMWZMZmI4d2pBaE9OczdGX0hSYy1FYmRPNUJTMEdoQ3d6YmZxTHJNN3BxSnRwYXNLNUt6czRlaUY5Vi1vMmdyWjlaR09WWEFxaF9qVzVPZkR1M3JSemlYdlBlaVd1RFdLbWQ0NHNBVFFMVGJXT1p2S2tGYTdFeHZxNnc2QQ?oc=5",
-      "query": "\"low-income housing tax credit\""
+      "query": "\"low-income housing tax credit\"",
+      "tier": "tight"
     },
     {
-      "title": "House Prices Are Falling And We Haven’t Solved The Problem Of Restrictive Zoning – OpEd",
-      "source": "Eurasia Review",
+      "title": "Gov. Abbott announces $114 million in tax credits to expand affordable housing across Texas",
+      "source": "WFAA",
       "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYmktRmxsYUVsQ2VSTTRmWDNsSmxRUXdoSkJyRWZUU1lRanpIRGt3WHlVT3lENVpoR3BCRVlrY1AwbkcwLWM5czBKNjEwNmI4NmFWNlJUbTgweFo0TTlCanlEdEdJYUlsN01ITEl2Qkx2cHd5dDlIS1NWR1daSThpeHJOeWQ3YzRhd2Frc2NEdUJwRk1sTnFRSl9tZHlIZEpRUGJWNHJLUllSVTc5cXhVRHVMbnFMOUJTUGk0emFrQVo5QQ?oc=5",
-      "query": "zoning reform"
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaEVsVlNqN281QmNtMTF1V0lYZnZ0X1hLUXY5ZWNtQzRBdzVlVjQtRUNjMUN5QnZvY0pYUGJ3UWVBZC1oeDdkeklsbExDWGJYVHhWcWx3dlRDNk4xcUgwNERRTHlndVVTYzBZWjhIaklweFVxR2NOLWZrcHFTQlNQanY2UHd0bV9pcUE2NFNReTlaaDV1TWlHUWRpcG10R3RXNi1faTlkcWRfYmJGSUdvN1ZhQlIyenNuaDZaMkdIWTZUOWlIRDdibWxFNjBDNTR2Vm9WUm1aSVNMRDBrRVF2MTI4OFRrWnpEMjQyM2habWRxb1p2SkE?oc=5",
+      "query": "\"affordable housing\" (tax credit OR bill OR legislation)",
+      "tier": "tight"
     },
     {
-      "title": "Landlords sue over rent freeze on New York City stabilized units",
-      "source": "HousingWire",
+      "title": "To help growing families find affordable housing, fix the parts of the tax code that keep family-sized homes off the market",
+      "source": "Niskanen Center",
       "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzY5WkVhekJPT1poYzJWYURHZjY2VGlzeUlHY0ZpNTJ4bHdzU0ExbXA2NlNRZ0JMM3hYaWpINEo5MzdWbjZ3eG1rNm9qUVFKenZyaDJZdGp6QUkyTGJUZXkwN0xKY1VLRmlVV1BNbDg4c0J0TFkxZHFwcFNuQUtnNHIwVUYyWFNCR2RhMGJUVkFKbHp3bUt2MzNDcDZMS0lwMUxKeg?oc=5",
-      "query": "rent regulation"
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUFgwVzFHWDBPU2tfZ29hLTd4SGlxV2otT09tdzlJQVFWVkJteHZMMl9zaVA2WXVhTHliUEo2V0d1LTBMeURpOERvcHRXV0NUNEpoemI3c0oxak16Ny1WRmphS0s0N2wwZ3JhOFZfT1E2OXF1eXVoUU9GTWd2eDBHcTVSWC1ncE9CekF2Rk15S1hDUU5oNm5tanZMTWI4TnRjOXlTRmZHcFg4c0E2LXpTUkpGaWV3bWFKVm9RaXFxMTB5TzZORjdnTmM2Z2tHTnZRa3UzZldVdEdIdk5fbUN6Ui0tZ01hSnpNMHc?oc=5",
+      "query": "\"affordable housing\" (tax credit OR bill OR legislation)",
+      "tier": "tight"
     },
     {
-      "title": "Former Food City demolished for new Tempe affordable housing complex",
-      "source": "AZ Family",
+      "title": "Fair Housing Groups Sue HUD Over Funding Changes",
+      "source": "The New York Times",
       "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX0VtampZaFFsUVUwaG1CWmduVWx3VnRRTUxFazRtdkJmN2JSVGttZVU1RzVIbzhHOUN3T2o0WmNORzVVeV9BTnJsSk1fa2dpdVZSUVZKdi1xQno4RG9yeENLWm1RN2hrM1p3ZHBxNXl2R3BJaE1hejZqUks1MEUzUjJUMVBNTkZPTVVDVEJWOUFyLWc1dV9pWkU5a1pYZEJ5TkNV0gG3AUFVX3lxTE1pdnYzODI1OC15WHZlaGs2S1J5cUxWVzNLbHhoWUhqR3E5ZVF5S0c4NEcwT1JxbXpkNmw5MUtOVHFGbnF1NW5MZnhZVXllbUJTekNKWW1BcjhsY3NhdmRLaDJKUUlOek1NaEw2LVZmMHgxZGMxTFFLcnYtSFd4Yl9ON0JxeVZ5YVNiSEhBaDN3dkRVenlRYjBIbHJfRmh2YVhDWTlyWTRmeTVXLV9yY0lSTkgzOGFxRQ?oc=5",
-      "query": "affordable housing development"
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2JKNlpTeUlCeHRORzJHMUVuZzBLNEZFeG5CRkFOM3M3UDdYYXBWVm4zdmhPTVVLa1BVTmZsRDJqMHNaWG9HYmpCdTRiN21nMk4wRlM2d1c1aDczekNkUHM5eWx1djJyNjF5UlBTTVBLTzNNZlQzalh5WlFiMWRZTGFxVzNvN2pYNHFn?oc=5",
+      "query": "\"HUD\" (rule OR funding OR program) housing",
+      "tier": "tight"
     },
     {
-      "title": "$76.8M construction financing arranged for 415-unit mixed-usedevelopment in Jacksonville Beach",
-      "source": "The Real Deal",
+      "title": "Fair Housing Groups Sue HUD Over Agency’s Funding Overhaul",
+      "source": "Bloomberg.com",
       "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORlBUNDczUGVSZjFtMDNaU1pEV3V2TzRZT3h6YXY5YVcwLXo4TWo1TlhlbkVwRjNVTTJEUF9DZnRkZDdJTnBUeGJDVkhxLUs1dmc4aFVwM0xxZ3FGczdIS2tUTE9HaWZoZGpKTXdXOW1PMjZ6VGhnc2xmaVN2aWRKR1N6UkwxR3pLWEFlYWxwSklMQjZpcDQ0TzR2VktWX0RHTnBEYXRkTnRfUWwwc0tTeE1LY3YyLTVibzJubXRucXdZUGJGdmd2eDVaMUVHUQ?oc=5",
-      "query": "construction financing"
-    },
-    {
-      "title": "Financing companies and insurers figuring out how to value resilience in multifamily sector",
-      "source": "Building Design + Construction",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPOXVvd2t0Nm45bWozWDd6WWQ1bElZMkdHUGhIZG1WRUNVYXVjbFlmMjhFWWJ4MEpxVFpJVDg4V25CZ1lWQ2VXdnZYOC1YZzh6VlRXclZtMDkyTWdLdktCOGxKQkx0bDZYMEZLbTBENHFCdFZORFJvV2dKSnc0Z2dBY2NIRVY2aUF1SFVwVGRnN3ZQSzRfdHJIQVpGd0M0enVIYjBNQnM4ekJXUDFVeTN0SEJ4WVlmeXpMOW1RSkxhWERUSU04VzBLVlZmRVA3M2ZfbWYyLVpfb3RPOXBZY25SWExKUGVrYWlwQXV1UmV1bXJyb3BYbTloSTNHMlptSmhLUTJ3NWpnWGJpeEE?oc=5",
-      "query": "construction financing"
-    },
-    {
-      "title": "Lee backs higher property taxes, exemptions",
-      "source": "동아일보",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJcHlPUHdCNWRBRGY5SXVXV190UnR3SkdudkhQWUc0MVh3S2dwakoyQUNMcXZxanduVUNycmNucmh2LWQxZkV2UzNpV2tZcXlwTU5VZGJMZEFQWUNWemltYVo1Z1JrZw?oc=5",
-      "query": "property tax exemption housing"
-    },
-    {
-      "title": "Insurers Consider Impacts of Troubled NYC Tower on Office-to-Residential Marketplace",
-      "source": "Engineering News-Record (ENR)",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdVWk0yWm04VmhSekVNQ00wY1YweFhLNnIwbVVfUWw4VjVxT3hpdUxOUElNUUlOX01OeDJtN1hadDdPbjRVb3NaRWFzdnd0ZXFJNkIwWGk0bHlFemtBZHpnVTBHZHBJbmdOYmxhTHB6Q0gyajlPTEcwOEdYS0djVGtYOXNhWEc5MzN0V3RqMnNpX3hvcEI1V2ZhTVB0SDNSX1FqWWtqc1NJZnpOeDNnOE9ZSGdsaDU4T0pJ?oc=5",
-      "query": "office to residential conversion"
-    },
-    {
-      "title": "UrbanStreet targets former Motorola office for residential conversion",
-      "source": "The Real Deal",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS0pwRVg2Z3NmVy1xUy1wUTJPaURyT2xsRUg2WFJ4Z09hdVlFU1FnR181UkRncEJzY1pSNkgyZzhacEVCRGc5VEFvQURpdUwtMzRnVjdvSkdfXzVtcVY4TjV5bVlKYUFLYTJKdVhHX2xFblhjcVVkdWlndEFFM2dTb2NvT1AySThDd0FpM1QyUEJzWWs5UG9DQ29ncVZnMmF6UVE?oc=5",
-      "query": "office to residential conversion"
-    },
-    {
-      "title": "The FHA Considers Dropping the 90-Day Flipping Rule. Here's Who Could Be Impacted.",
-      "source": "U.S. News",
-      "date": "2026-07-23",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd2NKWlVsWlhqOUV0UnJfN0lTRXpLekZmOGNlZkxDVmpLcUwxMTV3dFBOeWpHR01XVmZXc2Q5b1dXUmI4VkttOGxFVU5KbGFnSS1RQ1RKVG9NcFM1dUY1RXN1QWd4U241SThIbERzekl1eHdqUnNubm5STDhKQ054QTlGM0FRcDRIc2c1YkNjRndJM0xmM2xPck0xUk83Qll1Rjh1bFlVT0dfTE9TNkxyaUF0cFIzS3FyN1pHQTRBWm9Yd0dYZFR1Xw?oc=5",
-      "query": "mortgage lending rule"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOXVlc0E2VkZ4dWU2UEJZNUJaRFpfcHRha3pHUlQyMXVQaEtJcURmZEQ5eWJlcEdOY3lZb1IyZzA1dk5NbmlzU3c3cE1GMEdhVXQ4eUk3ZEVFN0lZaDZuRjhEYmVKZzh1WGswWlppdGg1RmN3bFBZVlp0bUNKUDBPNWhCc3B6T0t1WVFKanY5OXU4elFjdk55dE1ubEFHRlJ5djBLNDVuME42VGM1blE?oc=5",
+      "query": "\"HUD\" (rule OR funding OR program) housing",
+      "tier": "tight"
     },
     {
       "title": "What Michigan’s new housing laws do to boost building, cut costs",
       "source": "Crain's Detroit",
       "date": "2026-07-22",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWZNOG1pUVFYRmJyNnl2WGZrUldQcmJjRTB3Q0dyd3cxS2RpMmlNWERxVk1tT0ZPd21CeFBKeGNqV0tkclRlaWZtWERVVkxSSHBTS2VDY0RlYVBLejRISmZmek5MM2p3WDRlUjBrZlZzRFdzVDJEYVNBSkNMQXlpWEpMSnZsV2pjdVdEYWFUYkhHS19Qam1wMw?oc=5",
-      "query": "real estate legislation"
+      "query": "\"low-income housing tax credit\"",
+      "tier": "tight"
     },
     {
-      "title": "NEF Acquires St. Louis Equity Fund",
-      "source": "Affordable Housing Finance",
+      "title": "Whitmer signs bills aimed at expanding housing access in Michigan",
+      "source": "Detroit Free Press",
       "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42YWpoOGw3UjU2Znh3dmJwdDdkY0RMY3kzUGFaRkhDakpGVEUzdjRiZTFCdWNQSjRQU2RtdFdXYzNCa01xWjdpQ3ByNU9CRk95bVR0MGc1bDVZMVVyeGREOVQ5NFc2SkNoRXpKX0JHZmhBQUFMWkVHODFScw?oc=5",
-      "query": "\"low-income housing tax credit\""
-    },
-    {
-      "title": "Landlords sue to reverse rent freeze on 1 million apartments",
-      "source": "Politico",
-      "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaUVyQVNwZFR6bWM2NGpyNXB0YkZzaDNGMWM4cHR6UmpmY29SdVh1U1VFYUNKZzhzR2ZpYmRsY0xzR0RCZjlrM1hjMlFUakd3OV9JTWJScGhPNTZwaFk3TTV4RnNLa3NFcmNOZ2pnYkFyS21YaHVKVk52dlI5YkYzbWFTTkoxQXRXY3Z2a2w0RmRBODhEMFBiblJlSkhUOG1LM3ZsY2podjFIdkZSV0JN?oc=5",
-      "query": "rent regulation"
-    },
-    {
-      "title": "Housing, Tenancy, and Organizing for Dignified Living",
-      "source": "Democratic Left",
-      "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzFOVnRSNWtnV1VNS2gyTkxXTjRIQ2FtOXlZakMtSTJocDZqbjZLNG1Ub09vaGJDVXhxanpSdlMwTE11T2J0OFFra0w5QzBGQnMwSXNNZm1qOHhNNzJmRnB1QWpncDNHMEw5TDFrTzZTSGtDMy1MSGpyU2FXZU1URXVuMG5NS282LVp3UzBjeGxoU1pyZjN1Sk4wNlViZw?oc=5",
-      "query": "rent regulation"
-    },
-    {
-      "title": "Brookhaven approves affordable housing seen as key to revitalizing North Bellport",
-      "source": "Newsday",
-      "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2pxOG1sYTRuZnc3RXBGY2REUUpUUV90WXZhazlGbnIySDM1eVFCR2hTSGt1ZWg0U2YwVVF6SDRTWi1QdEZmOHdKSHZyZFhDVkxtR2ZWRzlDOXdGa1ZlU01NQlQ3dHptbkJZTzZZWFJNb1lfT0RQTWpfcHM5NkhIUl81MWtxSnVCYklWTQ?oc=5",
-      "query": "affordable housing development"
-    },
-    {
-      "title": "New affordable housing development breaks ground in Kissimmee",
-      "source": "WFTV",
-      "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYUJobnk1WnEyU25Odk1DSUJETHE5eVJJNnM1QTBxTG8yWGlmX3ZOcU1JSzRDMmduOXA3Wk9MUXh4TDBFcUxJUmV2MmlOdE5nRGVMSEtXZ3FwWmF0b09qMFFYTm1kaUVyMDV5cWJQajFsOHpnOUV1MjBDb2xNU3cwUXJ1ai1faDA0M0NwUkd1SllvdW10cno4ckUtTU4zV2txT1JzSEtBOFRPR2xaUWpvMng1aGRvTzdKY1HSAc4BQVVfeXFMTTZrY2lvLWQ1YzJaRkdkZDBGOG9ESnh5bXEycjJ0SzBNY3hUeUtFNVp1SlRVblRCUWY2M2hjX3pRaUExOEgtOE9tTnVsbzFLbHlXSWcxUW1xbll6bXlxSG9idUV1TFVYZ0E2NldFWDZXQzE3cWcwTE1pWmdENnRUaHZKbmhxVDc3SWtmNlVqWS1Za0VLSmxjck9RLVlMaG9RZjBGMW5hOHJlR0Z5YVQyM2JDbXA5N0xfWkFBVXViRXFLTTlHa2N6ZGNONDhVVGc?oc=5",
-      "query": "affordable housing development"
-    },
-    {
-      "title": "Prop 123 funds new affordable housing development in Colorado Springs",
-      "source": "KRDO",
-      "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4bWVWWjYweTR3YzBmcjd5bW03VmVFblpIOGVYUjdfOFRtZW95WGUtTy0zekxMSXRKNTBGNHVzUEx1bHVNczVXVk4yWDIwbFF1cU81UGVUejBoaWdGTm5nZG51dUFqTTBzY3V1ajJtcVh4M1lJdmNPNg?oc=5",
-      "query": "affordable housing development"
-    },
-    {
-      "title": "Office-to-residential conversions shaken but not stirred by New York’s Pfizer incident",
-      "source": "constructconnect.com",
-      "date": "2026-07-22",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXpzSTl1MWJlQWY1WlNqM0lzMDJGSUhHTGU0ak5oSDF1Z0syTHZsbDg4OHFGRkgxOFV6VTY2OHZmSXI2azMxYlZ3cmNYWVo5OTh0dFdaam9uNkJOY2hPZ3Q3OHRtZW8zaVQ0LWlnb3hPQmFOTklLNU9MOVU3MWFkcTZXTUgwVnZsemZQbzJNQm5uNWo0eXBJSUdWNW12RjBiZFNsbDJmZ2t0cTBUYWlXTG13T01DZjAzM2pKNm1BQzhma2Y1bW5mN3NwSnUtNDZuclJmWFBlakQ1RmV6X2pSVQ?oc=5",
-      "query": "office to residential conversion"
-    },
-    {
-      "title": "Property Play: Rental companies selling more property following new housing legislation",
-      "source": "CNBC",
-      "date": "2026-07-21",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVkgzczJ5Zy1RN0t6bGctT2tLYVM3aGxOaEVUS2pDY1ZzOUp3Vm83Nk05UVEwMWxFbVQwRzZaemo4ODFkeXk2WWxLNmhrREhSeXN3NXlWQmxkZGVBWngzakFZVkwxX1Y2N19YLWFTRlFtWHpCU2xqSVJQS0ZGRFlmQXhzTUVEdmZuNy1UaW1hajNNdG5YWXcyWUZCMjFLNjM3Q3hKZ3ZOY1hJWVhCX2VWbjAtc05zdlRuRmVhNHVHcms3b1lQVlBObw?oc=5",
-      "query": "real estate legislation"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMVdSQy1tMVhqSkJLeXNOSDVSNFFQNzBmc0VYUjBBNlNWNmluTTJhVFpOYzc2OXVSaHFidHpVMFpmYWw5WlVJU0dGQzgyb1pvZkItZ01QcldwcGdzMEQ4bXhMX2Z3N2xOeGQ3OEJFYmJYZDBKdVBrSTRzc3paVW9FZjFnNjJYSDViMzFxR0YzbEZ0X1YwX3NIQ0c5VnE0ZnQ1ZGc3anFDb3VwcjY0UlhMNUdkZG9oeHNiR1RNWm1BczJlV2tK?oc=5",
+      "query": "\"housing tax credit\" legislation",
+      "tier": "tight"
     },
     {
       "title": "New laws in Michigan create low-income housing tax credit, prevent investors from buying single-family homes",
       "source": "FOX 17 West Michigan News",
       "date": "2026-07-21",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSjBFM1ZtRlBac3cxcHVhYWc3Uld6NGE4eWRjVFlCX0RYN08wcWhIOWl5TTd4UWVCZXhpdmtGLWxqSVBwSzVIdDI2Z2pwaWZwaXJtaGhWS1F3S0U3OVhxbzlQRmJaR1BQdnNtU0xpekhyR3RjcVBKS1RDRnI1Y0tZQ3ZyQU1fbVoxOEdENzdIR2ZYVGRPeGgwY2lIeC1ub2JfRVRwaE9OemhYcnlCN3c3N1hFTUNQWU1KWkJ5Y2lDRDZsN3NhUC1jNkJBYktZNXptTEJ6bG1wU1FLdVg5M1VuWGkyUUY1RlJxOUhBdmVDaU5OQmxkT2FoRQ?oc=5",
-      "query": "\"low-income housing tax credit\""
+      "query": "\"low-income housing tax credit\"",
+      "tier": "tight"
     },
     {
       "title": "Whitmer signs new housing tax credit, bans large investors from buying single-family homes",
       "source": "MLive.com",
       "date": "2026-07-21",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLUgwbHZWb0Iwd1dkdVJzdFMzZGhZSW5PY3AzTmU4QV9mc0RmX1hhYWJCTWEzbXVoTDRSOWVoM2V5SVRpal9DWW1uX2xpc05HRkVIc1JFQU90eDdOV3g2RUFTS2xkQlhVY095VzV3SmJvWTBob3k2amJjY3dRVTB0SVlpTzhLRHpQSDBkTms0X2tjTmFId2lERHFRSjRQb2l1VnJDalpVLU1RbW9tNVRuNVR0RklwakpFSVR3TzhCWnNVa3BDMzdZOUc1XzBRUQ?oc=5",
-      "query": "\"low-income housing tax credit\""
+      "query": "\"low-income housing tax credit\"",
+      "tier": "tight"
+    },
+    {
+      "title": "HUD suspends disaster funding to U.S. Virgin Islands housing authority, saying mismanagement has kept $1.3 billion from hurricane survivors",
+      "source": "Fortune",
+      "date": "2026-07-21",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWTF1TFdnaVlsR00xemF3R1hoZ0VNNzU0U0RwcjFpNlFBVHpQOWRwdTJDRGtzcmtVRUJJcm1RUlVXeU1QX0JrOTRxb0hsM21XVy1nTEsxb0FWdTAxSUVoUFllMzV6R04yN3pTcjZHX3VBWTFpaFN5LUptVE9TWU1mcVMtX0xEYUNTOUxRMGVOV24?oc=5",
+      "query": "\"HUD\" (rule OR funding OR program) housing",
+      "tier": "tight"
+    },
+    {
+      "title": "HUD suspends Virgin Islands housing authority funding over fraud concerns",
+      "source": "HousingWire",
+      "date": "2026-07-21",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WZXBHNEowaW5KeEU4YTQtV29aV0w1b3FQTmtuWm54SW1iN3Z2eHJLT3lSZ0NSYzhMQVdHX0dIMUZ6OHQ3RlRWWHY1YkdrczhwdU91UG5IaWxCLWU0Z2p0WHhabnk1aDc4cndDUlhtOERtUQ?oc=5",
+      "query": "\"HUD\" (rule OR funding OR program) housing",
+      "tier": "tight"
+    },
+    {
+      "title": "HUD Halts Virgin Islands Housing Finance Authority Funding",
+      "source": "themortgagepoint.com",
+      "date": "2026-07-21",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWM1eElaM3ZwRTROdFVNWk03Q2tPbmdmUkZ5bV9nSWNHdGE3cDBFM1VRQk1sODFwbzRfdVRzQkUyUU5mNFR1UWlPNDZWQlFXVXRuaUt2aDh2MU5Manh2TjY5NkVrVEJEZzlRenB1U2Y0bWl6WTZMWVBjUXBhMGh4Yl9XWjhzblc2ekpNLTRVV2ZOdU5VYWhMa0pqSjQ5ZDl6?oc=5",
+      "query": "\"HUD\" (rule OR funding OR program) housing",
+      "tier": "tight"
+    },
+    {
+      "title": "Opportunity zone: Rossville Boulevard to be recommended for federal tax incentive boost",
+      "source": "Chattanooga Times Free Press",
+      "date": "2026-07-20",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2N0cVkyN2E3SDBtZWlnNC1FMXFOVjg3YlQxQzJsVnpnaG5TMnptNHUyUXlQb2QwdklTei1TdktyMlc0WEFxUUJUZUZ0X05GY2lRVWEzRzBhdWx5d0RMNXJEVWxPbzBoTWxXMU4wQkU3Y1dPdlByY0FpN1pQWHlHMmFpX0UwUFJfcW9aUS1ESlM5VVBSVFE?oc=5",
+      "query": "\"opportunity zone\" (development OR housing OR investment)",
+      "tier": "tight"
+    },
+    {
+      "title": "An Affordable Housing Owner’s Guide to Hurricane Season",
+      "source": "Tax Credit Advisor",
+      "date": "2026-07-20",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGZKU2tSWnlnMF90QkpRd1J1YXhKa2k2SVgtd1FaRm1keE1yUzJTbndMbmdkdDMtdWdCUUU1Q0JvV29oY3g0Rk83dkNMRjdHMUVXNUF5UTIyd1BrS0hlbkZGQ2dpdE9HeUFQV0x1d09Hb2hXcXlXN0xJWTJtdHZjeXlhQS1YZHkwLXlScUZ4NmNIS2U2cmhZ?oc=5",
+      "query": "\"affordable housing\" (tax credit OR bill OR legislation)",
+      "tier": "tight"
+    },
+    {
+      "title": "Affinius Capital and Axonic Capital Provide $42.5 Million Construction Loan for Two-Property, Self-Storage Portfolio in Miami",
+      "source": "citybiz",
+      "date": "2026-07-20",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeXY3NS1FNl9XQVNndWMyZVRXLURma3hMeWxEYlZzOGdRUGYxcUotRlRtM0UyNDF6aWdKSkVCQ1VqUWZyRFZQRGtTMVM0NWVkN1hRSHdGaXBHdVdBLU9rX09qYkdmRlY4UXlJZVFQcHAycl9Pd0hub2h2MnVkR1BXaW1ZRDhaOHVPQlBFeTJhcVJCUzBBc0paN0VFVGNFUENLczlaVXhRcWdzcXg4UVM0TEpuMHdTSjA4SXRKVmRNY3REU0dmQXp3eVBzbFBMZzVza2hGN2ZGcG8wcGFEQnNqVWwtVDNnQkVRZE1LS0RGOWxjOW1m?oc=5",
+      "query": "\"construction loan\" OR \"development financing\" commercial real estate",
+      "tier": "tight"
+    },
+    {
+      "title": "Witkoff and Monroe Capital secure $302M loan for mixed-use project on former Miami Arena site",
+      "source": "The Business Journals",
+      "date": "2026-07-20",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3gwR1M3RG1BREIwVVp1V3lGc3ZXWGVlQ3FHTUpIbE40bXR5MnloN1lDd3dCQVFmS2tMNlgwZ2VDamdMc29WSDJRajA4OGJLcmJPQi0yZGFPVmpjOGhuMmctVUFoQXFkUGZ5VGN3MHJyc1U3QU9kMVpoTkVfZVhRa19memhLc2l4YWZWWUFCNmk2d011N2RZY3ZfbjYxcWthaUhCdXdyYm5VUQ?oc=5",
+      "query": "\"construction loan\" OR \"development financing\" commercial real estate",
+      "tier": "tight"
+    },
+    {
+      "title": "Rep. Case introduces bill to boost transit-oriented affordable housing",
+      "source": "Maui Now",
+      "date": "2026-07-19",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZTBKU1RDV1FmWUkxMHg0SWRDZVVITm9CXzJCaVdRdzFuNWhsYVl2RkEtMEhTYkpWaFpSMGlvRE5xV09DVG55dzljQ09zMFkybUwzWlVrT0ZFM0ZFZUNpS0lVRlpQWnpJTFdzUlRoeGtkdWdGZ1d2ZHl2a2hkckJEQVV5dDVlOE51R2hqcndEaTlQSDdOaXRHS2QzU2pld2xIMzg4?oc=5",
+      "query": "\"housing tax credit\" legislation",
+      "tier": "tight"
+    },
+    {
+      "title": "The Rent Law is dead: owners will be able to raise rent without limits, and tenants will have to pay for repairs",
+      "source": "El Cronista",
+      "date": "2026-07-24",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZjJndTFoSmlOeHVSbFVmclNUU1U4ODY5RHh4X0NDazI3azVNNXhMdU1LMmZiQUd6Nkxua0JzTG81M19mN2xLOXM1ZEJiSFhLV0N2WjZ2LVVqS0VjWVNGSzlCWFpZUDhVZF96VU04N3hBa1M0WFhPS05mSGRQVWhIOWtfX1ZUN0FHaThEZnVCR2lfY0djSlgyMTZmeS1wN0psdkkzRENKd2hJQ2poajh2czNfMXY1YjVENVR2U2dUemtGQUg0aE1HaGxNWWl2MEZLZm5jdEVEenhQQndZcEE?oc=5",
+      "query": "rent regulation",
+      "tier": "broad"
+    },
+    {
+      "title": "Red Bank Moves Forward on Rent Rules, Graffiti Remediation, and Long‑Term Energy Strategy",
+      "source": "TAPinto",
+      "date": "2026-07-24",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPLXVGM2xJQlUxdG52TC1NWjVkS2NjcWZFempMb0ZIcVAtQ0pHSGpsdExucXNMV2hmVkllVDR3WERsS2NnekVRaVI0cEpZbDRqdzZfdlJ2ZmFPNkZXM1RrV05Za3hvNjFpQ1doYThYVWlUcHVPbVVaRUpneEo5TWtnY254Wl9vOUszZ29VMm5ka0xsenNaN3hwNjhaTjFiUlF5WU5xZ1VoUWNRTGFDZW1KVlNacU5pV3NRbmU2T3J1TXpZdnRBTHZzVFZSS0JIVUZoeHBKbUU4eHJ3MWhQRi13bnpYVEd2VzJyZXBz?oc=5",
+      "query": "rent regulation",
+      "tier": "broad"
+    },
+    {
+      "title": "S3 Capital Surpasses $10B In Construction Loan Originations",
+      "source": "National Mortgage Professional",
+      "date": "2026-07-24",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdlBCWGJSd1ZBWVBZTFM5ckpoZVZNSlpyUVNNdFlZcHUzTDVQblZscUFqeDVlcUJzS3hMR2NLdnc1OGl6MkQ4eE1SY1FUeDdBQ3A4cmhhUW80Wno1UGRGaGVCUTVUcENiSS1MUUhUeWdaU2s2UUMybFhUc0NfWjd0enJWVVZlU2cyREpqVWw2VERpaXRrUnVmckRQVzdBSWstazhN?oc=5",
+      "query": "construction financing",
+      "tier": "broad"
+    },
+    {
+      "title": "JLL Capital Markets arranges $78 million in construction financing for multifamily community in Dallas",
+      "source": "REJournals",
+      "date": "2026-07-24",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOejVWQ1NtMDVmOXlBa1YtNmROa28xcTNTaUhuWmtlUm9aNWdfSFVjNENkMVJTN0IzTmNLU1FrclhRQlgxZ1ZNLW1uMzhZM0lzekFLRFV6Sk5naHNPaGZRNTVNdF9hVkdaQnJWSmlPeXduUWRUUllJS2E4SUFDdEFnMjlpVnRXdTNfSlhtZ2NZU0ZvRmQxdlpUcXFtaXlkSl9WVzA0MVN4WGVkV2tEa3NhYXV5Q2xBVVYxYTlhRFVCSm9odUU?oc=5",
+      "query": "construction financing",
+      "tier": "broad"
+    },
+    {
+      "title": "Raleigh Housing Authority seeks Cary approval to buy 340-unit apartment complex",
+      "source": "WRAL",
+      "date": "2026-07-24",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVHgxV0ZEOWs5aW9hWmVocG01SEVKamxOaXpyRFVYbmV2MXRhUWdCZ0tzeV9fbTdyZVU5Q283MGJBcEpyR1RZSXBFTHgydVZXN29Yd0YzMHJyVGhGUWxnckNycTI0dDgybUhkeXhFZWRUZWxxQkdRakprbkdzdU1fVHBTVFg1SmZidlY1ZDJhSFVUdE1jU19EUkgzYjg?oc=5",
+      "query": "property tax exemption housing",
+      "tier": "broad"
+    },
+    {
+      "title": "Criticism of Employer-Sponsored Housing Legislation Persists",
+      "source": "The East Hampton Star",
+      "date": "2026-07-23",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGRrVEZuVzJ5eEpvOVNyVjBvMnEwbUdleWx0bmx2c21jWVEtZ1BJN05mSkdnZEdJTlVIcG5YOXhCeDMxWDhHMFliQUhqM2RkWmpJT3pSSnVxYnd5YWV6bXdoX3EzNTdjSnNEVFFZd1Myd0gxWVZ2MkZGNHNSQWJrd1FJX0VhS2Y1QzVIVTNZU1dTd3Z2RnRiY3JIbW13QzFLMFYxdTVvZ1JxQkN4?oc=5",
+      "query": "real estate legislation",
+      "tier": "broad"
+    },
+    {
+      "title": "House Prices Are Falling And We Haven’t Solved The Problem Of Restrictive Zoning – OpEd",
+      "source": "Eurasia Review",
+      "date": "2026-07-23",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYmktRmxsYUVsQ2VSTTRmWDNsSmxRUXdoSkJyRWZUU1lRanpIRGt3WHlVT3lENVpoR3BCRVlrY1AwbkcwLWM5czBKNjEwNmI4NmFWNlJUbTgweFo0TTlCanlEdEdJYUlsN01ITEl2Qkx2cHd5dDlIS1NWR1daSThpeHJOeWQ3YzRhd2Frc2NEdUJwRk1sTnFRSl9tZHlIZEpRUGJWNHJLUllSVTc5cXhVRHVMbnFMOUJTUGk0emFrQVo5QQ?oc=5",
+      "query": "zoning reform",
+      "tier": "broad"
+    },
+    {
+      "title": "Landlords sue over rent freeze on New York City stabilized units",
+      "source": "HousingWire",
+      "date": "2026-07-23",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzY5WkVhekJPT1poYzJWYURHZjY2VGlzeUlHY0ZpNTJ4bHdzU0ExbXA2NlNRZ0JMM3hYaWpINEo5MzdWbjZ3eG1rNm9qUVFKenZyaDJZdGp6QUkyTGJUZXkwN0xKY1VLRmlVV1BNbDg4c0J0TFkxZHFwcFNuQUtnNHIwVUYyWFNCR2RhMGJUVkFKbHp3bUt2MzNDcDZMS0lwMUxKeg?oc=5",
+      "query": "rent regulation",
+      "tier": "broad"
+    },
+    {
+      "title": "Former Food City demolished for new Tempe affordable housing complex",
+      "source": "AZ Family",
+      "date": "2026-07-23",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX0VtampZaFFsUVUwaG1CWmduVWx3VnRRTUxFazRtdkJmN2JSVGttZVU1RzVIbzhHOUN3T2o0WmNORzVVeV9BTnJsSk1fa2dpdVZSUVZKdi1xQno4RG9yeENLWm1RN2hrM1p3ZHBxNXl2R3BJaE1hejZqUks1MEUzUjJUMVBNTkZPTVVDVEJWOUFyLWc1dV9pWkU5a1pYZEJ5TkNV0gG3AUFVX3lxTE1pdnYzODI1OC15WHZlaGs2S1J5cUxWVzNLbHhoWUhqR3E5ZVF5S0c4NEcwT1JxbXpkNmw5MUtOVHFGbnF1NW5MZnhZVXllbUJTekNKWW1BcjhsY3NhdmRLaDJKUUlOek1NaEw2LVZmMHgxZGMxTFFLcnYtSFd4Yl9ON0JxeVZ5YVNiSEhBaDN3dkRVenlRYjBIbHJfRmh2YVhDWTlyWTRmeTVXLV9yY0lSTkgzOGFxRQ?oc=5",
+      "query": "affordable housing development",
+      "tier": "broad"
+    },
+    {
+      "title": "The FHA Considers Dropping the 90-Day Flipping Rule. Here's Who Could Be Impacted.",
+      "source": "U.S. News",
+      "date": "2026-07-23",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd2NKWlVsWlhqOUV0UnJfN0lTRXpLekZmOGNlZkxDVmpLcUwxMTV3dFBOeWpHR01XVmZXc2Q5b1dXUmI4VkttOGxFVU5KbGFnSS1RQ1RKVG9NcFM1dUY1RXN1QWd4U241SThIbERzekl1eHdqUnNubm5STDhKQ054QTlGM0FRcDRIc2c1YkNjRndJM0xmM2xPck0xUk83Qll1Rjh1bFlVT0dfTE9TNkxyaUF0cFIzS3FyN1pHQTRBWm9Yd0dYZFR1Xw?oc=5",
+      "query": "mortgage lending rule",
+      "tier": "broad"
+    },
+    {
+      "title": "Housing, Tenancy, and Organizing for Dignified Living",
+      "source": "Democratic Left",
+      "date": "2026-07-22",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzFOVnRSNWtnV1VNS2gyTkxXTjRIQ2FtOXlZakMtSTJocDZqbjZLNG1Ub09vaGJDVXhxanpSdlMwTE11T2J0OFFra0w5QzBGQnMwSXNNZm1qOHhNNzJmRnB1QWpncDNHMEw5TDFrTzZTSGtDMy1MSGpyU2FXZU1URXVuMG5NS282LVp3UzBjeGxoU1pyZjN1Sk4wNlViZw?oc=5",
+      "query": "rent regulation",
+      "tier": "broad"
+    },
+    {
+      "title": "Brookhaven approves affordable housing seen as key to revitalizing North Bellport",
+      "source": "Newsday",
+      "date": "2026-07-22",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2pxOG1sYTRuZnc3RXBGY2REUUpUUV90WXZhazlGbnIySDM1eVFCR2hTSGt1ZWg0U2YwVVF6SDRTWi1QdEZmOHdKSHZyZFhDVkxtR2ZWRzlDOXdGa1ZlU01NQlQ3dHptbkJZTzZZWFJNb1lfT0RQTWpfcHM5NkhIUl81MWtxSnVCYklWTQ?oc=5",
+      "query": "affordable housing development",
+      "tier": "broad"
+    },
+    {
+      "title": "New affordable housing development breaks ground in Kissimmee",
+      "source": "WFTV",
+      "date": "2026-07-22",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYUJobnk1WnEyU25Odk1DSUJETHE5eVJJNnM1QTBxTG8yWGlmX3ZOcU1JSzRDMmduOXA3Wk9MUXh4TDBFcUxJUmV2MmlOdE5nRGVMSEtXZ3FwWmF0b09qMFFYTm1kaUVyMDV5cWJQajFsOHpnOUV1MjBDb2xNU3cwUXJ1ai1faDA0M0NwUkd1SllvdW10cno4ckUtTU4zV2txT1JzSEtBOFRPR2xaUWpvMng1aGRvTzdKY1HSAc4BQVVfeXFMTTZrY2lvLWQ1YzJaRkdkZDBGOG9ESnh5bXEycjJ0SzBNY3hUeUtFNVp1SlRVblRCUWY2M2hjX3pRaUExOEgtOE9tTnVsbzFLbHlXSWcxUW1xbll6bXlxSG9idUV1TFVYZ0E2NldFWDZXQzE3cWcwTE1pWmdENnRUaHZKbmhxVDc3SWtmNlVqWS1Za0VLSmxjck9RLVlMaG9RZjBGMW5hOHJlR0Z5YVQyM2JDbXA5N0xfWkFBVXViRXFLTTlHa2N6ZGNONDhVVGc?oc=5",
+      "query": "affordable housing development",
+      "tier": "broad"
+    },
+    {
+      "title": "Prop 123 funds new affordable housing development in Colorado Springs",
+      "source": "KRDO",
+      "date": "2026-07-22",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4bWVWWjYweTR3YzBmcjd5bW03VmVFblpIOGVYUjdfOFRtZW95WGUtTy0zekxMSXRKNTBGNHVzUEx1bHVNczVXVk4yWDIwbFF1cU81UGVUejBoaWdGTm5nZG51dUFqTTBzY3V1ajJtcVh4M1lJdmNPNg?oc=5",
+      "query": "affordable housing development",
+      "tier": "broad"
+    },
+    {
+      "title": "Property Play: Rental companies selling more property following new housing legislation",
+      "source": "CNBC",
+      "date": "2026-07-21",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVkgzczJ5Zy1RN0t6bGctT2tLYVM3aGxOaEVUS2pDY1ZzOUp3Vm83Nk05UVEwMWxFbVQwRzZaemo4ODFkeXk2WWxLNmhrREhSeXN3NXlWQmxkZGVBWngzakFZVkwxX1Y2N19YLWFTRlFtWHpCU2xqSVJQS0ZGRFlmQXhzTUVEdmZuNy1UaW1hajNNdG5YWXcyWUZCMjFLNjM3Q3hKZ3ZOY1hJWVhCX2VWbjAtc05zdlRuRmVhNHVHcms3b1lQVlBObw?oc=5",
+      "query": "real estate legislation",
+      "tier": "broad"
+    },
+    {
+      "title": "Michigan extends key tax breaks for billions of dollars of real estate development in Detroit",
+      "source": "Crain's Detroit",
+      "date": "2026-07-21",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXFSem5ENy1Ja2l4SFEwYzF2UTlDT3VPQU1kWlo0aTdOZ0llQmFsRDlBdVZrR1RQYzdtcGdmc05vQmltVFowZ1dLUkZQaXF0c0Q4YVRmVm43bW9GWnRSQXkyY2pQdWdBWmQ4Xy01bkRhNWI4MFR4dkUyT21MZ2J3VnpERVlzTHhFQ3hxTHZpTVFBMEVvdVV6VjFoR2Iza3JsV3F3ajVjWUd2SHA4Tk8wZQ?oc=5",
+      "query": "real estate legislation",
+      "tier": "broad"
     },
     {
       "title": "Why Rent Keeps Rising Because of Wall Street",
       "source": "Time Magazine",
       "date": "2026-07-21",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVVlDVUFJbm5tVXVjTFZOR05xc0lkQTRsT3YwTnVnSUJjQ09uRUhEUGtyU3pFbHNMQ3lvNVpiQVRvSmU1YlRzcE5KdXp3NWx6RmRTVVg5U2pYdmhvQVBxOUE2ODlqNmg1RHlXVWF2RnQ0VnUwcEtHWmQ0XzFhNV8wMEpzSHNTMF9H?oc=5",
-      "query": "rent regulation"
+      "query": "rent regulation",
+      "tier": "broad"
     },
     {
       "title": "Portland approves 2 tax deals for affordable housing developments",
       "source": "Spectrum News",
       "date": "2026-07-21",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ0k3WjZfQnctZDhubC1DSGFBdUZQbU5zTXdSdktVZ3g0WVN3S3NnYUYtZnQzbkpWQUh5YVNtQkRUay1FdGR2WlhNS0kzSU9ONW9lSFFaOVktX3NLNzJRVDlfYUdyMVNGUjE1MFN4ZEFJZ2lTeU91bmlaS0tadVNsWnVJYXU0UTJBVlJOSWdKNklEdk9FYmtOWW05aVZWQUFwOWRYMV9kWjJ5aEo2dHhnRnN3X1gwZko5b3FOaVBkaGs?oc=5",
-      "query": "affordable housing development"
+      "query": "affordable housing development",
+      "tier": "broad"
     },
     {
       "title": "‘Hawaii Builds’ initiative aims to fast-track affordable housing",
       "source": "Hawaii Tribune-Herald",
       "date": "2026-07-21",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTDA2cXlRck1JcjFyc2VHcWJMZm5ucHBOTW5LanZ0ZHJxVFRsY0Zhd1hIZ0FZYWJKUVlKUlE4cTV0Rk1xNXM2cW9zckpXNV9KZENiaHVGRjA4djN4ZGdGamgxOV9RUHA2LWVvUU1FUl95cW1zRFpnU1N1NkJ1RTh1c0VleUJYQnhMVmprWHdYY0hyYTc1N3R0ODBlcWtZNnpoakpfZ0pTeU1KVWRrYVBfVjl4NDJseWV4YjBPdFhNMzQ?oc=5",
-      "query": "affordable housing development"
-    },
-    {
-      "title": "Landmark Financing Advances University of Kentucky Infrastructure Investment",
-      "source": "orrick.com",
-      "date": "2026-07-21",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTXBsdUJ5N0lOczVkdWN2UmUwcFpaVjBNeTFFNFRYSzJQZGxWYnVrbTlQc0xSOWR1VTlLblNFeHlJNXFWV3ZIN2JGcEJGNVpjTWNEVGhUODVEUkxZR3VqakpKTUVLNnR4SVBqZ1lGZlo3S1lzVV9LbllaN2JoZEpyWHZBZ3pwNkZTX0M1dHpLdlExQ0YtTTJESnBWQWRDUTcwU0liMXYzb2MteHZqT2xzTzZMcjROQQ?oc=5",
-      "query": "construction financing"
-    },
-    {
-      "title": "Everett proposes changes to tax break program for builders",
-      "source": "HeraldNet.com",
-      "date": "2026-07-20",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc0l2TnJNeFNpa3VBTXptMV9MRXRCZ2d4OW13Z3ZzZ0tWM2Qwcm1CMUlVVXpGRzNoaGFmQWZydDlXaEVvakhGd0FLc01ZUlFVSEVLemhhQy1YZHFjYnZlRWVRaXVmOWhfMnpZZUhDaDN1YjlPcDhITTNEakNRSC1pSW9RM0pFVFl5M1hoN0xraURhRjV5SG9oaTBDUG4?oc=5",
-      "query": "property tax exemption housing"
-    },
-    {
-      "title": "Apartment conversions are expensive and tricky. This old Denver Tech Center building pulled it off.",
-      "source": "Colorado Public Radio",
-      "date": "2026-07-20",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOck9aZklkX0k5djZXLTFZMnVPdUI1TXJNbUMtUlZuanQ1WURqbnMzQVloRXRIQmxNQ3E4a1NXRDA3NGxRNmFTb2RxSnc1VlJIeHZsZFhqU0p1QmtGVjFycG1UNEwzejRTNWF4dTYxWjdYb3VyRmNobG1kWVBXMWlVZHI5RDVUc0hFN1NjR2cwS0NGVGFOQlE?oc=5",
-      "query": "office to residential conversion"
+      "query": "affordable housing development",
+      "tier": "broad"
     },
     {
       "title": "City Hall Roundup: Legal Updates, Zoning Reform, Business Survey",
       "source": "CandysDirt.com",
       "date": "2026-07-19",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR2dkZGg4VG1ONE5NN2ZtOWE0M280eHcwMVRuVU5LbzhHM1NIMElUeVhsWFRTQm55Nld6TDJNRW1KNWtOWHg0dGlLTGNJZ1B6N3dxN04tQldOSkZudC1HcjdaNlktVnJwRXhvTHpiOWVSUXhwdzV5ZzJTaWZiUTViTWxiVjRVTi1mbVZRMmNJZE4wbmp4QlowRjVLWTE?oc=5",
-      "query": "zoning reform"
+      "query": "zoning reform",
+      "tier": "broad"
     },
     {
       "title": "Sacramento’s zoning overhaul would transform neighborhoods for the better | Opinion",
       "source": "Sacramento Bee",
       "date": "2026-07-17",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IeW43MEtzU2NwNnZUckhxRmY2X212dERTd19YbGFnMk5zXzAxc2pVOU1wYnpQZGxCYlUxbjhIQWdtYVgwQkpnemNSMV9vT0xIQ0NOVUpRdlJUdjN2bGtDazVn0gFiQVVfeXFMT0t4QUtOaWEyMmFYUTAyOGs5NU1GQ0VWTnJTMEdfVVNPd0g4Yld2S0NVS242bngwRlprMWRKRXViaU9vR3gxcmhEZWhNVk5hbTZ4NnYtRnV1S0NqZC1ZcHhmcnc?oc=5",
-      "query": "zoning reform"
+      "query": "zoning reform",
+      "tier": "broad"
     },
     {
       "title": "Why the Opportunity Zone program matters for North Carolina",
       "source": "Axios",
       "date": "2026-07-16",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeXhVbVZGSnl4enJpdEdwdEo4MmZyOGtjWWwwakh6NEFRNzNGdklJbjB3a3FLdExKdTBWbmpkYUhSdDF0UkRWWHhxNjNHWnJSeFgzelNkZmt1U2pGRWM5Tnpvd1U5VkFUQVNaQVRfTUtYbDBSMjhCWWJSc0hwRTl0LUJZQlVMdHlLcTgxdHBFa2RCeTEtcWpoQ09RbE12bE5OdUZvbXJ6YWZucVgyRHRPaWZJOU1YbFJVODFpWVlR?oc=5",
-      "query": "opportunity zone real estate"
+      "query": "opportunity zone real estate",
+      "tier": "broad"
     },
     {
       "title": "Eugene passes new tax exemptions for housing developers",
       "source": "NPR for Oregonians",
       "date": "2026-07-16",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa25INkdoZ0tkdjhFRXM3TVo4elZoRnRMQkMyakdFZmxVbWhPeW1LSC1ETG1iM2YtNHFpNG56VE5xdHZSVDN4ZDBCMXl2TU5EaWNZa0RfbjdvMXJhbFg0ZVE4c2pOVnZBa2RpUnJ4M08ycGhRZ0cyeWxjeW84aFVDbmNzWVRaMU96cmw1bnhMRi1DaTRlQy1oSVBRVjdJZm5WNHQ0?oc=5",
-      "query": "property tax exemption housing"
+      "query": "property tax exemption housing",
+      "tier": "broad"
     },
     {
       "title": "Eugene launches new tax exemptions to spur more housing",
       "source": "Lookout Eugene-Springfield",
       "date": "2026-07-16",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWUhGaVBVd1ZmRE0tclJoc0JoaFV1dktQWENGUkNPVGxiRkpVUmMwTFIzVWpHeXk4TlpPcWJyR0liSk5nZzA5eThMcGJXVTFfZlZBZDZET3ZMbVRiZjlGM29TOXQ0bmQ1YTVnc3hqZ1R0eWd3UVFhb0NERllRTC1tVDc4eXZzVlV6T3c2Y1dCY3oxN1dEVWlvUnU2cWNidkhZZUVQODFyVnJXWjdycVY2SU9FSldmNm5GUEE3N19hN3E0Y0NLZmxGUmNHMWE?oc=5",
-      "query": "property tax exemption housing"
+      "query": "property tax exemption housing",
+      "tier": "broad"
     },
     {
       "title": "Columbus Multifamily Housing Permits Hit 7-Year High Following Major Zoning Overhaul",
       "source": "Realtor.com",
       "date": "2026-07-14",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUUdYdmRUUDVvZDhDaWpscFFjcGpsTVNGVEFCazVoVGRIbzF1clhITFpxcUZjMTI3dDZqQTdxdVdTTjlFeFNuRGdpSm91R0RHQzdVOGRKbjhnT1hSZmYzVFFLY2F2V1JhQ1hVbWtQT2VKb2JtMnpzZDRoSW1sOFcyb0xuay14S3NGWGZaRnZVdEl6SlR2S2RRRkFmOHR5V0dVYVJPLUxOM3l3VGE1RjVTMQ?oc=5",
-      "query": "zoning reform"
+      "query": "zoning reform",
+      "tier": "broad"
+    },
+    {
+      "title": "New Mexico affordable housing developers ask lawmakers for tax relief, predictability",
+      "source": "Source New Mexico",
+      "date": "2026-07-13",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcHJ2R3pNWUl5VTE1Uk1peURCR0YwbGFFVUpOWi00WEUzejUwMEFjNWxrUkVPZHBmcDlYNDVacXMtZG9DdmNsRERMVkVCV3NJX0FieVNjS2FHZ21ra3ZzajBuRzFvSGo1Q0V6bGVVcnhWMXAtMFkwMGNic1B6M3VCdjhyU2lmQ0l3aTVyS203TDAtVmpCXzFOSnlpZ3MzODNJZkxJQkZSd2N3cTN3bmhVclg1VzJtdlRo?oc=5",
+      "query": "property tax exemption housing",
+      "tier": "broad"
     }
   ]
 }

@@ -352,6 +352,30 @@ function feedColumn(title: string, note: string, items: HTMLElement[]): HTMLElem
   return col
 }
 
+function feedSubgroup(label: string, items: NewsItem[]): HTMLElement[] {
+  if (items.length === 0) return []
+  const header = el('div', 'feed-subhead')
+  header.append(el('span', 'feed-subhead-label', label))
+  header.append(el('span', 'feed-subhead-count', `${items.length}`))
+  return [header, ...items.map(renderNewsItem)]
+}
+
+function newsColumn(news: NewsItem[]): HTMLElement {
+  const col = el('div', 'feed-column')
+  const head = el('div', 'feed-column-head')
+  head.append(el('h3', 'feed-column-title', 'In the news'))
+  head.append(el('span', 'feed-column-count', `${news.length}`))
+  col.append(head)
+  col.append(el('p', 'feed-column-note', 'Policy & trade headlines — high-signal first, wider watch below.'))
+  const list = el('div', 'feed-list')
+  for (const node of feedSubgroup('High signal', news.filter((n) => n.tier === 'tight')))
+    list.append(node)
+  for (const node of feedSubgroup('Wider watch', news.filter((n) => n.tier === 'broad')))
+    list.append(node)
+  col.append(list)
+  return col
+}
+
 /** The interpretation layer: Federal Register actions + policy/trade news. */
 export function renderSignals(signals: Signals): HTMLElement | null {
   const hasReg = signals.regulations.length > 0
@@ -387,9 +411,7 @@ export function renderSignals(signals: Signals): HTMLElement | null {
     )
   }
   if (hasNews) {
-    columns.append(
-      feedColumn('In the news', 'Policy & trade headlines across the sector.', signals.news.map(renderNewsItem)),
-    )
+    columns.append(newsColumn(signals.news))
   }
   section.append(columns)
   return section
